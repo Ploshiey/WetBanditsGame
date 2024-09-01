@@ -14,17 +14,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float walkSpeed = 4;
     [SerializeField] private float sprintSpeed = 8;
     [SerializeField] private float moveSpeed;
-   
+
     [Header("Stamina Main")]
     [SerializeField] private float maxStamina = 100.0f;
     //[SerializeField] private float jumpCost = 20;
     public float playerStamina = 100.0f;
     public bool hasRegenerated = true;
     public bool isSprinting = false;
-    
+
     [Header("Stamina Regen")]
-    [Range(0, 50)] [SerializeField] private float staminaDrain = 0.5f;
-    [Range(0, 50)] [SerializeField] private float staminaRegen = 0.5f;
+    [Range(0, 50)][SerializeField] private float staminaDrain = 0.5f;
+    [Range(0, 50)][SerializeField] private float staminaRegen = 0.5f;
 
     [Header("Stamina UI Elements")]
     [SerializeField] private Image staminaProgessUI = null;
@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 moveInput;
 
-    
+
     void Update()
     {
         SprintingController();
@@ -69,10 +69,10 @@ public class PlayerController : MonoBehaviour
         if (isSprinting == false && playerStamina < maxStamina - 0.01)
         {
             playerStamina += staminaRegen * Time.deltaTime;
-            
-             
-            
-            
+
+
+
+
         }
         else if (isSprinting == false && playerStamina >= maxStamina - 0.01)
         {
@@ -103,18 +103,17 @@ public class PlayerController : MonoBehaviour
             playerStamina -= staminaDrain * Time.deltaTime;
             UpdateStamina(1);
 
-            if(playerStamina <= 0)
+            if (playerStamina <= 0)
             {
                 hasRegenerated = false;
                 //slow the player
-                UpdateStamina(0);
             }
         }
     }
 
     void UpdateStamina(int value)
     {
-        
+
         if (value == 0)
         {
             sliderCanvasGroup.alpha = 0;
@@ -122,8 +121,9 @@ public class PlayerController : MonoBehaviour
         else
         {
             sliderCanvasGroup.alpha = 1;
+
         }
+        //Stamina Slider
+        #endregion
     }
-    //Stamina Slider
-    #endregion
 }
