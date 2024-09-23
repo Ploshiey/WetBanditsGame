@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Border
   - Collectable
+  - Goober
   layers:
   - Default
   - TransparentFX

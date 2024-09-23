@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Goober : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class Goober : MonoBehaviour
     public CameraScript camscript;
     private int gooberPos;
     [SerializeField] GameObject phoney;
-    private bool discovered;
+    public bool discovered;
     [SerializeField] GameObject player;
     [SerializeField] GameObject goober;
     [SerializeField] private int speed = 3;
@@ -33,9 +34,11 @@ public class Goober : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        phoney.SetActive(false);
-        goober.GetComponent<SpriteRenderer>().enabled = true;
-        discovered = true;
-
+        if (other.gameObject.tag == "Player" && discovered == false)
+        {
+            phoney.SetActive(false);
+            goober.GetComponent<SpriteRenderer>().enabled = true;
+            discovered = true;
+        }
     }
 }

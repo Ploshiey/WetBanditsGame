@@ -9,6 +9,9 @@ public class Borders : MonoBehaviour
     public GameObject Player;
     [SerializeField] CameraScript cams;
     [SerializeField] int poz;
+    public Goober Goober;
+    [SerializeField] GameObject goober;
+    [SerializeField] GameObject gooberWhole;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +25,11 @@ public class Borders : MonoBehaviour
             Debug.Log("Hit");
             Player.transform.position = newPos;
             cams.CamChange(poz);
+        }
+        else if (other.gameObject.tag == "Goober" && Goober.discovered == true)
+        {
+            Debug.Log("Activated");
+            gooberWhole.transform.position = newPos;
         }
     }
 
