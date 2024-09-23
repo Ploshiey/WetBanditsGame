@@ -14,6 +14,7 @@ public class Goober : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] GameObject goober;
     [SerializeField] private int speed = 3;
+    [SerializeField] private AudioSource Audable;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +30,8 @@ public class Goober : MonoBehaviour
             Vector3 localPosition = player.transform.position - transform.position;
             localPosition = localPosition.normalized;
             transform.Translate(localPosition.x * Time.deltaTime * speed, localPosition.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
+            
+            
         }
     }
 
@@ -39,6 +42,7 @@ public class Goober : MonoBehaviour
             phoney.SetActive(false);
             goober.GetComponent<SpriteRenderer>().enabled = true;
             discovered = true;
+            Audable.Play();
         }
     }
 }
