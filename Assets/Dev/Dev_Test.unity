@@ -2309,7 +2309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 274d65ad900568f42aa3647a03bf09be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goobinator: {fileID: 1590352836}
+  goob: {fileID: 1590352836}
   goober: {fileID: 891326184}
   AllGoober: {fileID: 1590352833}
   phoney: {fileID: 1012828134}
