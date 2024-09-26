@@ -135,6 +135,8 @@ GameObject:
   - component: {fileID: 1482659}
   - component: {fileID: 1482658}
   - component: {fileID: 1482657}
+  - component: {fileID: 1482660}
+  - component: {fileID: 1482661}
   m_Layer: 0
   m_Name: Fallen tree
   m_TagString: Untagged
@@ -165,11 +167,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482655}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.1108522, y: 0.9999998, z: 1}
+  m_Center: {x: -0.003048709, y: 0, z: 0}
 --- !u!23 &1482658
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -220,6 +222,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482655}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1482660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb06b11d41b2e645b9a130de4c450f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockage: {fileID: 1482655}
+  Inv: {fileID: 1172014161}
+--- !u!65 &1482661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482655}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9999999, y: 1.0000001, z: 1}
+  m_Center: {x: 0, y: 0.00000017881393, z: 0}
 --- !u!1 &7414631
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,7 +399,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &12987133
 RectTransform:
   m_ObjectHideFlags: 0
@@ -423,7 +452,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14685792}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.08, y: 1, z: 35}
+  m_LocalPosition: {x: 0.47, y: 1, z: 0.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

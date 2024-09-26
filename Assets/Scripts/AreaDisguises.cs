@@ -40,44 +40,42 @@ public class AreaDisguises : MonoBehaviour
                 DisObj = Random.Range(0, 3);
                 curMat = mats[DisObj];
                 phoney.GetComponent<MeshRenderer>().material = curMat;
-                x = Random.Range(-2.5f, 15.5f);
-                z = Random.Range(0.5f, 6f);
+                x = Random.Range(0.5f, 12.8f);
+                z = Random.Range(0.6f, 8.3f);
                 AllGoober.transform.position = new Vector3(x, 1, z);
                 break;
             case 2:
                 DisObj = Random.Range(0, 3);
                 curMat = mats[DisObj];
                 phoney.GetComponent<MeshRenderer>().material = curMat;
-                x = Random.Range(27.5f, 45.5f);
-                z = Random.Range(0.5f, 6f);
+                x = Random.Range(30.7f, 45.9f);
+                z = Random.Range(0.5f, 5.7f);
                 AllGoober.transform.position = new Vector3(x, 1, z);
                 break;
             case 3:
                 DisObj = Random.Range(0, 3);
                 curMat = mats[DisObj];
                 phoney.GetComponent<MeshRenderer>().material = curMat;
-                x = Random.Range(-32.5f, -14.5f);
-                z = Random.Range(31f, 37.5f);
+                x = Random.Range(-32.5f, -18.9f);
+                z = Random.Range(33.4f, 38.2f);
                 AllGoober.transform.position = new Vector3(x, 1, z);
                 break;
             case 4:
                 DisObj = Random.Range(0, 3);
                 curMat = mats[DisObj];
                 phoney.GetComponent<MeshRenderer>().material = curMat;
-                x = Random.Range(-2.5f, 15.5f);
-                z = Random.Range(31f, 37.5f);
+                x = Random.Range(1f, 12f);
+                z = Random.Range(30.3f, 38.2f);
                 AllGoober.transform.position = new Vector3(x, 1, z);
                 break;
             case 5:
                 DisObj = Random.Range(0, 3);
                 curMat = mats[DisObj];
                 phoney.GetComponent<MeshRenderer>().material = curMat;
-                x = Random.Range(27.5f, 45.5f);
-                z = Random.Range(31f, 37.5f);
+                x = Random.Range(30f, 42f);
+                z = Random.Range(32.1f, 38.1f);
                 AllGoober.transform.position = new Vector3(x, 1, z);
                 break;
-
-
             default:
                  
                 break;
