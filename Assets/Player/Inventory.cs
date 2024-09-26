@@ -66,9 +66,10 @@ public class Inventory : MonoBehaviour
             }
         }
     }
-    private void OnTriggerEnter(Collider other)
+
+    private void OnTriggerStay(Collider other)
     {
-        if (other.transform.CompareTag("Collectable"))
+        if (other.transform.CompareTag("Collectable") && Input.GetKey(KeyCode.E))
         {
             type = other.gameObject.name;
             Collecting(type);
