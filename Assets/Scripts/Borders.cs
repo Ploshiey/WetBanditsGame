@@ -10,7 +10,7 @@ public class Borders : MonoBehaviour
     [SerializeField] CameraScript cams;
     [SerializeField] int poz;
     public Goober Goober;
-    [SerializeField] GameObject goober;
+    
     [SerializeField] GameObject gooberWhole;
     private void OnTriggerEnter(Collider other)
     {

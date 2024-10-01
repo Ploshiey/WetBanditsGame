@@ -54,7 +54,53 @@ public class CameraScript : MonoBehaviour
                 camPos = currArea[value];
                 this.transform.position = camPos;
                 break;
+
             case 6:
+                camPos = currArea[value];
+                this.transform.position = camPos;
+                break;
+
+            case 7:
+                camPos = currArea[value];
+                this.transform.position = camPos;
+                break;
+
+            case 8:
+                camPos = currArea[value];
+                this.transform.position = camPos;
+                break;
+
+            case 9:
+                camPos = currArea[value];
+                this.transform.position = camPos;
+                break;
+
+            case 10:
+                camPos = currArea[value];
+                this.transform.position = camPos;
+                break;
+
+            case 11:
+                camPos = currArea[value];
+                this.transform.position = camPos;
+                break;
+
+            case 12:
+                camPos = currArea[value];
+                this.transform.position = camPos;
+                break;
+
+            case 13:
+                camPos = currArea[value];
+                this.transform.position = camPos;
+                break;
+
+            case 14:
+                camPos = currArea[value];
+                this.transform.position = camPos;
+                break;
+            
+            case 15:
                 camPos = currArea[value];
                 this.transform.position = camPos;
                 break;
