@@ -19,7 +19,7 @@ public class AreaDisguises : MonoBehaviour
 
     private void Start()
     {
-        temp = Random.Range(1, 5);
+        temp = Random.Range(1, 15);
         areaHidables(temp);
         goobystarter(temp);
     }

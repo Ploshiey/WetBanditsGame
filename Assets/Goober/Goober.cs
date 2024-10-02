@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.ProBuilder.MeshOperations;
@@ -57,34 +58,34 @@ public class Goober : MonoBehaviour
         }
         else if(discovered == true && GoobLocat != locat )
         {
-            if (locat - GoobLocat == 1 && GoobLocat != 2)
+            //if player is in the tile to the left of the Goober
+            if (locat - GoobLocat == 1 && (GoobLocat != 3 || GoobLocat != 7 || GoobLocat != 11))
             {
                 Vector3 localPosition = goToPoz[GoobLocat + 1] - transform.position;
                 localPosition = localPosition.normalized;
-                transform.Translate(localPosition.x * Time.deltaTime * speed, localPosition.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
+                transform.Translate(localPosition.x * Time.deltaTime * speed, goober.transform.position.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
             }
-            else if (GoobLocat - locat - 3 == 0 && GoobLocat != 4)
+            //if player is in the tile below the Goober
+            else if (GoobLocat - locat - 4 == 0 && (GoobLocat != 4))
             {
-                Vector3 localPosition = goToPoz[GoobLocat - 3] - transform.position;
+                Vector3 localPosition = goToPoz[GoobLocat - 4] - transform.position;
                 localPosition = localPosition.normalized;
-                transform.Translate(localPosition.x * Time.deltaTime * speed, localPosition.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
+                transform.Translate(localPosition.x * Time.deltaTime * speed, goober.transform.position.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
             }
-            else if (GoobLocat - locat == 1 && GoobLocat != 3)
+            //if the player is in the tile to the right of the Goober
+            else if (GoobLocat - locat == 1 && (GoobLocat != 4 || GoobLocat != 8 || GoobLocat != 12))
             {
                 Vector3 localPosition = goToPoz[GoobLocat - 1] - transform.position;
                 localPosition = localPosition.normalized;
-                transform.Translate(localPosition.x * Time.deltaTime * speed, localPosition.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
+                transform.Translate(localPosition.x * Time.deltaTime * speed, goober.transform.position.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
             }
-                
+            //if the player is in the tile above the Goober
             else if(locat - GoobLocat - 3 == 0 && GoobLocat != 1)
             {
-                Vector3 localPosition = goToPoz[GoobLocat + 3] - transform.position;
+                Vector3 localPosition = goToPoz[GoobLocat + 4] - transform.position;
                 localPosition = localPosition.normalized;
-                transform.Translate(localPosition.x * Time.deltaTime * speed, localPosition.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
+                transform.Translate(localPosition.x * Time.deltaTime * speed, goober.transform.position.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
             }
-            
-            
-            
             
             else
             {
