@@ -9,7 +9,7 @@ public class Menu : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene("Dev_Test");
+        SceneManager.LoadScene("Level");
     }
     
     public void Quit()
