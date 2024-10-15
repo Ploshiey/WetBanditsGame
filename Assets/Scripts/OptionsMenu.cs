@@ -42,7 +42,7 @@ public class OptionsMenu : MonoBehaviour
                 audioSources[0].volume = v;
                 audioSources[1].volume = v;
                 break;
-                }
+            }
         }
     }
 }
