@@ -72,7 +72,7 @@ public class AreaDisguises : MonoBehaviour
                 DisObj = Random.Range(0, 4);
                 curMat = mats[DisObj];
                 phoney.GetComponent<MeshRenderer>().material = curMat;
-                x = Random.Range(-101f, -42f);
+                x = Random.Range(-101f, -78f);
                 z = Random.Range(99f, 111f);
                 AllGoober.transform.position = new Vector3(x, 2, z);
                 break;
@@ -104,7 +104,7 @@ public class AreaDisguises : MonoBehaviour
                 DisObj = Random.Range(0, 4);
                 curMat = mats[DisObj];
                 phoney.GetComponent<MeshRenderer>().material = curMat;
-                x = Random.Range(-101f, -42f);
+                x = Random.Range(-101f, -78f);
                 z = Random.Range(198f, 211f);
                 AllGoober.transform.position = new Vector3(x, 52, z);
                 break;
@@ -136,7 +136,7 @@ public class AreaDisguises : MonoBehaviour
                 DisObj = Random.Range(0, 4);
                 curMat = mats[DisObj];
                 phoney.GetComponent<MeshRenderer>().material = curMat;
-                x = Random.Range(-101f, -42f);
+                x = Random.Range(-101f, -78f);
                 z = Random.Range(298f, 311f);
                 AllGoober.transform.position = new Vector3(x, 102, z);
                 break;

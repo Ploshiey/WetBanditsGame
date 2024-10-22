@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
@@ -66,8 +67,8 @@ public class PlayerController : MonoBehaviour
         rb.velocity = new Vector3(moveInput.x * moveSpeed, rb.velocity.y, moveInput.y * moveSpeed);
 
         anim.SetFloat("moveSpeed", rb.velocity.magnitude);
-        anim.SetFloat("x", rb.velocity.magnitude);
-        anim.SetFloat("y", rb.velocity.magnitude);
+        anim.SetFloat("x", moveInput.x);
+        anim.SetFloat("y", moveInput.y);
        
     }
 
@@ -178,5 +179,9 @@ public class PlayerController : MonoBehaviour
         }
         //Stamina Slider
         #endregion
+    }
+    public void onMove(InputAction.CallbackContext context)
+    {
+        moveInput = context.ReadValue<Vector2>();
     }
 }
