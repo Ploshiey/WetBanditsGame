@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour
 {
     #region Player Components
     public Rigidbody rb;
+    public Animator anim;
+    public Animator flip;
+    public SpriteRenderer sr;
     #endregion
 
     #region Movement Stats
@@ -14,6 +17,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float walkSpeed = 4;
     [SerializeField] private float sprintSpeed = 8;
     [SerializeField] private float moveSpeed;
+    [SerializeField] private bool readytoFlip;
+    [SerializeField] private bool movingBackwards;
+    
 
     [Header("Stamina Main")]
     [SerializeField] private float maxStamina = 100.0f;
@@ -53,14 +59,61 @@ public class PlayerController : MonoBehaviour
 
         staminaProgessUI.fillAmount = playerStamina / maxStamina;
 
+        moveInput.x = Input.GetAxisRaw("Horizontal");
+        moveInput.y = Input.GetAxisRaw("Vertical");
+        moveInput.Normalize();
+
         rb.velocity = new Vector3(moveInput.x * moveSpeed, rb.velocity.y, moveInput.y * moveSpeed);
+
+        anim.SetFloat("moveSpeed", rb.velocity.magnitude);
+        anim.SetFloat("x", rb.velocity.magnitude);
+        anim.SetFloat("y", rb.velocity.magnitude);
+       
     }
 
     void FixedUpdate()
     {
-        moveInput.x = Input.GetAxisRaw("Horizontal");
-        moveInput.y = Input.GetAxisRaw("Vertical");
-        moveInput.Normalize();
+        if(!sr.flipX && moveInput.x < 0)
+        {
+            sr.flipX = true;
+            flip.SetTrigger("Flip");
+        }
+        else if(sr.flipX && moveInput.x > 0)
+        {
+            sr.flipX = false;
+            flip.SetTrigger("Flip");
+        }
+
+        if (moveInput.x == 1 || moveInput.x == -1)
+        {
+            anim.SetBool("sideWalk", true);
+        }
+        else
+        {
+            anim.SetBool("sideWalk", false);
+        }
+
+        if (!movingBackwards && moveInput.y > 0)
+        {
+            movingBackwards = true;
+        }
+        else if (movingBackwards && moveInput.y < 0)
+        {
+            movingBackwards = false;
+        }
+
+        anim.SetBool("moveBackwards", movingBackwards);
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            flip.SetTrigger("Flip");
+            readytoFlip = true;
+        }
+        if (Input.GetKeyDown(KeyCode.S) && readytoFlip == true)
+        {
+            flip.SetTrigger("Flip");
+            readytoFlip = false;
+        }
     }
 
     #region Sprint Controller

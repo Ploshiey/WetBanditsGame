@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6303967375357121797}
   - component: {fileID: 6303967375357121818}
   - component: {fileID: 6303967375357121817}
+  - component: {fileID: 2555881242789495842}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -82,6 +83,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 6303967375357121796}
+  anim: {fileID: 6777284308308388571}
+  flip: {fileID: 2555881242789495842}
+  sr: {fileID: 6303967376873460958}
   walkSpeed: 4
   sprintSpeed: 7
   moveSpeed: 0
@@ -231,6 +235,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &2555881242789495842
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6303967375357121792}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 30704b59cbbaace418686dba7cae11e8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6303967376568724178
 GameObject:
   m_ObjectHideFlags: 0

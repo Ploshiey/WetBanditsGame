@@ -9005,7 +9005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6303967375357121798, guid: 76b4f4ef788797c42afa6770f7803637, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -48
+      value: -48.016
       objectReference: {fileID: 0}
     - target: {fileID: 6303967375357121798, guid: 76b4f4ef788797c42afa6770f7803637, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15390,6 +15390,52 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6303967375357121792, guid: 76b4f4ef788797c42afa6770f7803637, type: 3}
   m_PrefabInstance: {fileID: 426456238}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &765099322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765099321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: d736750e9f376d04780c1dd01f5f87f1, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 765099321}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c81b36c4-0b58-4766-8ad3-009c5c725d58
+    m_ActionName: Player/Move
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &775963519
 GameObject:
   m_ObjectHideFlags: 0
