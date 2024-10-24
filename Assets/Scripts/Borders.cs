@@ -10,7 +10,6 @@ public class Borders : MonoBehaviour
     [SerializeField] CameraScript cams;
     [SerializeField] int poz;
     public Goober Goober;
-    
     [SerializeField] GameObject gooberWhole;
     private void OnTriggerEnter(Collider other)
     {
@@ -21,7 +20,7 @@ public class Borders : MonoBehaviour
             cams.CamChange(poz);
             Goober.playerPozUpdater(poz);
         }
-        else if (other.gameObject.tag == "Goober" && Goober.discovered == true)
+        else if (other.gameObject.tag == "Goober" && (Goober.discovered || Goober.goobOnTheMove))
         {
             Debug.Log("Activated");
             gooberWhole.transform.position = newPos;
