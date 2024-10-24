@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float walkSpeed = 4;
     [SerializeField] private float sprintSpeed = 8;
     [SerializeField] private float moveSpeed;
-    [SerializeField] private bool readytoFlip;
     [SerializeField] private bool movingBackwards;
     
 
@@ -97,24 +96,15 @@ public class PlayerController : MonoBehaviour
         if (!movingBackwards && moveInput.y > 0)
         {
             movingBackwards = true;
+            flip.SetTrigger("Flip");
         }
         else if (movingBackwards && moveInput.y < 0)
         {
             movingBackwards = false;
+            flip.SetTrigger("Flip");
         }
 
         anim.SetBool("moveBackwards", movingBackwards);
-
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            flip.SetTrigger("Flip");
-            readytoFlip = true;
-        }
-        if (Input.GetKeyDown(KeyCode.S) && readytoFlip == true)
-        {
-            flip.SetTrigger("Flip");
-            readytoFlip = false;
-        }
     }
 
     #region Sprint Controller
