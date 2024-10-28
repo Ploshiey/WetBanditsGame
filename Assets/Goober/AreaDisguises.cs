@@ -39,120 +39,120 @@ public class AreaDisguises : MonoBehaviour
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(-101f, -79f);
-                z = Random.Range(-1f, 11f);
+                x = Random.Range(-100f, -78f);
+                z = Random.Range(0f, 10f);
                 AllGoober.transform.position = new Vector3(x, -48, z);
                 break;
             case 2:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(-1f, 21.5f);
-                z = Random.Range(-1f, 11f);
+                x = Random.Range(0f, 20f);
+                z = Random.Range(0f, 10f);
                 AllGoober.transform.position = new Vector3(x, -48, z);
                 break;
             case 3:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(99f, 116.5f);
-                z = Random.Range(-1f, 11f);
+                x = Random.Range(100f, 115f);
+                z = Random.Range(0f, 10f);
                 AllGoober.transform.position = new Vector3(x, -48, z);
                 break;
             case 4:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(-198f, -178f);
-                z = Random.Range(99f, 111f);
+                x = Random.Range(-200f, -175f);
+                z = Random.Range(100f, 110f);
                 AllGoober.transform.position = new Vector3(x, 2, z);
                 break;
             case 5:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(-101f, -78f);
-                z = Random.Range(99f, 111f);
+                x = Random.Range(-100f, -77f);
+                z = Random.Range(100f, 110f);
                 AllGoober.transform.position = new Vector3(x, 2, z);
                 break;
             case 6:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(-1f, 21.5f);
-                z = Random.Range(99f, 111f);
+                x = Random.Range(0f, 20f);
+                z = Random.Range(100f, 110f);
                 AllGoober.transform.position = new Vector3(x, 2, z);
                 break;
             case 7:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(99f, 116.5f);
-                z = Random.Range(99f, 111f);
+                x = Random.Range(100f, 115f);
+                z = Random.Range(100f, 110f);
                 AllGoober.transform.position = new Vector3(x, 2, z);
                 break;
             case 8:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(-198f, -178f);
-                z = Random.Range(198f, 211f);
+                x = Random.Range(-195f, -175f);
+                z = Random.Range(200f, 210f);
                 AllGoober.transform.position = new Vector3(x, 52, z);
                 break;
             case 9:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(-101f, -78f);
-                z = Random.Range(198f, 211f);
+                x = Random.Range(-100f, -75f);
+                z = Random.Range(200f, 210f);
                 AllGoober.transform.position = new Vector3(x, 52, z);
                 break;
             case 10:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(-1f, 21.5f);
-                z = Random.Range(198f, 211f);
+                x = Random.Range(0f, 20f);
+                z = Random.Range(200f, 210f);
                 AllGoober.transform.position = new Vector3(x, 52, z);
                 break;
             case 11:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(99f, 116.5f);
-                z = Random.Range(198f, 211f);
+                x = Random.Range(100f, 115f);
+                z = Random.Range(200f, 210f);
                 AllGoober.transform.position = new Vector3(x, 52, z);
                 break;
             case 12:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(-198f, -178f);
-                z = Random.Range(298f, 311f);
+                x = Random.Range(-195f, -175f);
+                z = Random.Range(300f, 301f);
                 AllGoober.transform.position = new Vector3(x, 102, z);
                 break;
             case 13:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(-101f, -78f);
-                z = Random.Range(298f, 311f);
+                x = Random.Range(-100f, -75f);
+                z = Random.Range(300f, 310f);
                 AllGoober.transform.position = new Vector3(x, 102, z);
                 break;
             case 14:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(-1f, 21.5f);
-                z = Random.Range(298f, 311f);
+                x = Random.Range(0f, 20f);
+                z = Random.Range(300f, 310f);
                 AllGoober.transform.position = new Vector3(x, 102, z);
                 break;
             case 15:
                 DisObj = Random.Range(0, 8);
                 curMat = mats[DisObj];
                 phoney.GetComponent<SpriteRenderer>().sprite = curMat;
-                x = Random.Range(99f, 116.5f);
-                z = Random.Range(298f, 311f);
+                x = Random.Range(100f, 115f);
+                z = Random.Range(300f, 310f);
                 AllGoober.transform.position = new Vector3(x, 102, z);
                 break;
 
