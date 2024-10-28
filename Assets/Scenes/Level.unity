@@ -330,6 +330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8438845}
   - component: {fileID: 8438846}
+  - component: {fileID: 8438847}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (3)
   m_TagString: Untagged
@@ -404,6 +405,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &8438847
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8438844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1001 &10134227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -531,6 +545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14749067}
   - component: {fileID: 14749068}
+  - component: {fileID: 14749069}
   m_Layer: 0
   m_Name: GhostGum_Tree (10)
   m_TagString: Untagged
@@ -605,6 +620,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &14749069
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14749066}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &16274349
 GameObject:
   m_ObjectHideFlags: 0
@@ -2793,6 +2821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 67637062}
   - component: {fileID: 67637063}
+  - component: {fileID: 67637064}
   m_Layer: 0
   m_Name: GhostGum_Tree (5)
   m_TagString: Untagged
@@ -2867,6 +2896,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &67637064
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67637061}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0, z: 0.0000038146973}
 --- !u!1 &69820626
 GameObject:
   m_ObjectHideFlags: 0
@@ -2877,6 +2919,7 @@ GameObject:
   m_Component:
   - component: {fileID: 69820627}
   - component: {fileID: 69820628}
+  - component: {fileID: 69820629}
   m_Layer: 0
   m_Name: GhostGum_Tree (16)
   m_TagString: Untagged
@@ -2951,6 +2994,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &69820629
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69820626}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1001 &75083715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3199,6 +3255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 89844104}
   - component: {fileID: 89844105}
+  - component: {fileID: 89844106}
   m_Layer: 0
   m_Name: WATTLE_Tree (10)
   m_TagString: Untagged
@@ -3273,6 +3330,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &89844106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89844103}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &100490238
 GameObject:
   m_ObjectHideFlags: 0
@@ -3283,6 +3353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 100490240}
   - component: {fileID: 100490239}
+  - component: {fileID: 100490241}
   m_Layer: 0
   m_Name: MULGA_Tree (9)
   m_TagString: Untagged
@@ -3357,6 +3428,19 @@ Transform:
   m_Father: {fileID: 7995921}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 374.999, z: 0}
+--- !u!65 &100490241
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100490238}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!1001 &107071826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3437,6 +3521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 111986775}
   - component: {fileID: 111986776}
+  - component: {fileID: 111986777}
   m_Layer: 0
   m_Name: GhostGum_Tree (6)
   m_TagString: Untagged
@@ -3511,6 +3596,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &111986777
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111986774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &113055019
 GameObject:
   m_ObjectHideFlags: 0
@@ -3521,6 +3619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 113055020}
   - component: {fileID: 113055021}
+  - component: {fileID: 113055022}
   m_Layer: 0
   m_Name: WATTLE_Tree (34)
   m_TagString: Untagged
@@ -3595,6 +3694,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &113055022
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113055019}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1001 &113299579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3759,6 +3871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 116443180}
   - component: {fileID: 116443181}
+  - component: {fileID: 116443182}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (8)
   m_TagString: Untagged
@@ -3833,6 +3946,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &116443182
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116443179}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &119950701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3890,7 +4016,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 07f4e268cebead64e831ddbdab733185, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3910,7 +4036,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119950701}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.0000029504295}
-  m_LocalPosition: {x: 20.830017, y: 6.829998, z: 13.5}
+  m_LocalPosition: {x: 20.83, y: 6.829998, z: 15.13}
   m_LocalScale: {x: 0.7486822, y: 0.80816525, z: 0.5075467}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4218,6 +4344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 139487852}
   - component: {fileID: 139487851}
+  - component: {fileID: 139487853}
   m_Layer: 0
   m_Name: MULGA_Tree (8)
   m_TagString: Untagged
@@ -4292,6 +4419,19 @@ Transform:
   m_Father: {fileID: 7995921}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &139487853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139487850}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!1 &141858071
 GameObject:
   m_ObjectHideFlags: 0
@@ -4532,7 +4672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 150008028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.9400024, y: 1.5999985, z: 8.23}
+  m_LocalPosition: {x: 4.53, y: 1.5999985, z: 6.61}
   m_LocalScale: {x: 0.1684135, y: 0.1684135, z: 0.1684135}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4722,6 +4862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 167087637}
   - component: {fileID: 167087638}
+  - component: {fileID: 167087639}
   m_Layer: 0
   m_Name: WATTLE_Tree (12)
   m_TagString: Untagged
@@ -4796,6 +4937,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &167087639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167087636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &171455245
 GameObject:
   m_ObjectHideFlags: 0
@@ -6000,6 +6154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 203652119}
   - component: {fileID: 203652120}
+  - component: {fileID: 203652121}
   m_Layer: 0
   m_Name: WATTLE_Tree (19)
   m_TagString: Untagged
@@ -6074,6 +6229,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &203652121
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203652118}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &206114482
 GameObject:
   m_ObjectHideFlags: 0
@@ -7054,6 +7222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 218833644}
   - component: {fileID: 218833645}
+  - component: {fileID: 218833646}
   m_Layer: 0
   m_Name: WATTLE_Tree (37)
   m_TagString: Untagged
@@ -7128,6 +7297,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &218833646
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218833643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &219255741
 GameObject:
   m_ObjectHideFlags: 0
@@ -7469,7 +7651,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 07f4e268cebead64e831ddbdab733185, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7489,7 +7671,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231124577}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.7700195, y: 7.709999, z: 13.45}
+  m_LocalPosition: {x: 6.7700195, y: 7.709999, z: 13.51}
   m_LocalScale: {x: 0.7486822, y: 0.80816525, z: 0.5075467}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9531,7 +9713,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 07f4e268cebead64e831ddbdab733185, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11171,6 +11353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 300522989}
   - component: {fileID: 300522990}
+  - component: {fileID: 300522991}
   m_Layer: 0
   m_Name: WATTLE_Tree (26)
   m_TagString: Untagged
@@ -11245,6 +11428,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &300522991
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300522988}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &302337904
 GameObject:
   m_ObjectHideFlags: 0
@@ -11408,6 +11604,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 3b7c425aca3f88b4eb26cb4dc44c4913, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11552,7 +11749,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: 0
     m_TextureGroup: -1
@@ -11569,7 +11766,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: 0
     m_TextureGroup: -1
@@ -11909,7 +12106,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -11926,7 +12123,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -11943,7 +12140,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -11977,7 +12174,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -12389,7 +12586,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 725775278}
-  m_VersionIndex: 1645
+  m_VersionIndex: 1652
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -13351,14 +13548,24 @@ Mesh:
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 180
+    indexCount: 144
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 70
+    vertexCount: 54
     localAABB:
       m_Center: {x: 9.6979065, y: 1.3291264, z: 10.305712}
       m_Extent: {x: 12.504364, y: 2.5, z: 7.5}
+  - serializedVersion: 2
+    firstByte: 288
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 54
+    vertexCount: 20
+    localAABB:
+      m_Center: {x: 19.697906, y: 0.07912636, z: 10.305712}
+      m_Extent: {x: 2.504364, y: 1.25, z: 7.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -13375,10 +13582,10 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 00000100020003000000020001000400050002000100050002000500060007000200060003000200070008000300070009000a000b000c0009000b000a000d000e000b000a000e000f001000110012000f00110013000f001200140013001200150016001700150018001600170019001a001700160019001b001a001c001b0017001a001d0017001b001d00150017001e001f0020001e0021001f0020002200230020001f00220024002300250024002000230026002000240026001e0020002700280029002a00270029002b0027002a002c002b002a002d002e0027002b002d0027002e002f00280027002e00280030003100320030003300310032003400350032003100340036003500370036003200350038003200360038003000320035003400390034003a003900180015003b0015003c003b00050004003d0004003e003d003f0040004100400042004100370035004300350039004300400044004200440045004200
+  m_IndexBuffer: 00000100020003000000020001000400050002000100050002000500060007000200060003000200070008000300070009000a000b000c0009000b000d0009000c000e000d000c000f00100011000f001200100011001300140011001000130015001400160015001100140017001100150017000f001100180019001a0018001b0019001a001c001d001a0019001c001e001d001f001e001a001d0020001a001e00200018001a002100220023002400210023002500210024002600250024002700280021002500270021002800290022002100280022002a002b002c002a002d002b002c002e002f002c002b002e0030002f00310030002c002f0032002c00300032002a002c002f002e0033002e003400330031002f0035002f003300350036003700380039003600380037003a003b00380037003b003c003d003e003d003f003e00400041004200410043004200440045004600450047004600450048004700480049004700
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 70
+    m_VertexCount: 74
     m_Channels:
     - stream: 0
       offset: 0
@@ -13436,8 +13643,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 3360
-    _typelessdata: 009d33c030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf009d334030df95bf8031e64030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c030df95bf8031e640d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c0d020aa3f009d33c0d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf009d3340d020aa3f608c894130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c130df95bf608c8941d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1d020aa3f608c89416810754019728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1681075408031e6406810754019728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c068107540009d33c06810754019728e4100000000000000000000803f000080bf0000000000000000000080bf009d334068107540409eb14130df95bf19728e410000803f000000000000000000000000000000000000803f000080bf19728e4130df95bf409eb14130df95bf32e424410000803f000000000000000000000000000000000000803f000080bf32e4244130df95bf409eb141d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f409eb141d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f409eb14130df95bfc89033400000803f000000000000000000000000000000000000803f000080bfc890334030df95bf409eb141d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c8941d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f608c8941d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c894168107540c89033400000803f000000000000000000000000000000000000803f000080bfc890334068107540608c89416810754032e424410000803f000000000000000000000000000000000000803f000080bf32e4244168107540608c8941d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f608c89416810754019728e410000803f000000000000000000000000000000000000803f000080bf19728e4168107540608c8941d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf608c8941d020aa3f8031e64030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64030df95bf8031e640d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e640d020aa3f608c894130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf608c894130df95bf009d33c030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c030df95bf009d33c0d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c0d020aa3f8031e64068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64068107540009d33c068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c068107540608c894168107540c89033400000000000000000000080bf0000803f0000000000000000000080bf608c894168107540009d33c0d020aa3fc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0d020aa3f009d33c030df95bf32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c130df95bf009d33c0d020aa3f32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c1d020aa3f009d33c030df95bfc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c030df95bf009d33c030df95bf19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec130df95bf009d33c0d020aa3f19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec1d020aa3f009d33c06810754032e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c168107540009d33c06810754019728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec168107540009d33c068107540c8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0681075408031e6406810754032e42441000000000000803f000000000000803f0000000000000000000080bf8031e64032e42441009d33c06810754032e42441000000000000803f000000000000803f0000000000000000000080bf009d33c032e42441009d33c06810754019728e41000000000000803f000000000000803f0000000000000000000080bf009d33c019728e418031e6406810754019728e41000000000000803f000000000000803f0000000000000000000080bf8031e64019728e41608c89416810754032e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441608c89416810754019728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41608c894168107540c8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c89033408031e64068107540c8903340000000000000803f000000000000803f0000000000000000000080bf8031e640c8903340009d33c068107540c8903340000000000000803f000000000000803f0000000000000000000080bf009d33c0c8903340009d33c030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf009d334032e424418031e64030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf8031e6c0c89033408031e64030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf8031e6c032e42441009d33c030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf009d3340c8903340608c894130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf608c89c1c8903340608c894130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf608c89c132e424418031e64030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf8031e6c019728e41608c894130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf608c89c119728e41009d33c030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf009d334019728e41409eb14130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf409eb1c132e42441409eb14130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf409eb1c1c8903340409eb14130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb14130df95bf409eb141d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb141d020aa3f409eb141d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c1d020aa3f409eb14130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c130df95bf608c8941d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c8903340608c8941d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441409eb141d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf409eb141c8903340409eb141d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf409eb14132e42441409eb14130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf409eb1c119728e41608c8941d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41409eb141d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf409eb14119728e41
+    m_DataSize: 3552
+    _typelessdata: 009d33c030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf009d334030df95bf8031e64030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c030df95bf8031e640d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c0d020aa3f009d33c0d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf009d3340d020aa3f608c894130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c130df95bf608c8941d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1d020aa3f608c89416810754019728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1681075408031e6406810754019728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c068107540009d33c06810754019728e4100000000000000000000803f000080bf0000000000000000000080bf009d334068107540608c8941d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f608c8941d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c894168107540c89033400000803f000000000000000000000000000000000000803f000080bfc890334068107540608c89416810754032e424410000803f000000000000000000000000000000000000803f000080bf32e4244168107540608c8941d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f608c89416810754019728e410000803f000000000000000000000000000000000000803f000080bf19728e4168107540608c8941d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf608c8941d020aa3f8031e64030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64030df95bf8031e640d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e640d020aa3f608c894130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf608c894130df95bf009d33c030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c030df95bf009d33c0d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c0d020aa3f8031e64068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64068107540009d33c068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c068107540608c894168107540c89033400000000000000000000080bf0000803f0000000000000000000080bf608c894168107540009d33c0d020aa3fc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0d020aa3f009d33c030df95bf32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c130df95bf009d33c0d020aa3f32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c1d020aa3f009d33c030df95bfc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c030df95bf009d33c030df95bf19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec130df95bf009d33c0d020aa3f19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec1d020aa3f009d33c06810754032e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c168107540009d33c06810754019728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec168107540009d33c068107540c8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0681075408031e6406810754032e42441000000000000803f000000000000803f0000000000000000000080bf8031e64032e42441009d33c06810754032e42441000000000000803f000000000000803f0000000000000000000080bf009d33c032e42441009d33c06810754019728e41000000000000803f000000000000803f0000000000000000000080bf009d33c019728e418031e6406810754019728e41000000000000803f000000000000803f0000000000000000000080bf8031e64019728e41608c89416810754032e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441608c89416810754019728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41608c894168107540c8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c89033408031e64068107540c8903340000000000000803f000000000000803f0000000000000000000080bf8031e640c8903340009d33c068107540c8903340000000000000803f000000000000803f0000000000000000000080bf009d33c0c8903340009d33c030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf009d334032e424418031e64030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf8031e6c0c89033408031e64030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf8031e6c032e42441009d33c030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf009d3340c8903340608c894130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf608c89c1c8903340608c894130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf608c89c132e424418031e64030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf8031e6c019728e41608c894130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf608c89c119728e41009d33c030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf009d334019728e41409eb14130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf409eb1c132e42441409eb14130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf409eb1c1c8903340409eb14130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf409eb1c119728e41409eb14130df95bf19728e410000803f000000000000000000000000000000000000803f000080bf19728e4130df95bf409eb14130df95bf32e424410000803f000000000000000000000000000000000000803f000080bf32e4244130df95bf409eb141d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f409eb141d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f409eb14130df95bfc89033400000803f000000000000000000000000000000000000803f000080bfc890334030df95bf409eb141d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c894130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf608c894130df95bf608c8941d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf608c8941d020aa3f409eb14130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb14130df95bf409eb141d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb141d020aa3f608c8941d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1d020aa3f608c894130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c130df95bf409eb141d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c1d020aa3f409eb14130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c130df95bf608c8941d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c8903340608c8941d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441409eb141d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf409eb141c8903340409eb141d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf409eb14132e42441608c8941d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41409eb141d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf409eb14119728e41
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -14345,6 +14552,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 3b7c425aca3f88b4eb26cb4dc44c4913, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14489,7 +14697,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: 0
     m_TextureGroup: -1
@@ -14506,7 +14714,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: 0
     m_TextureGroup: -1
@@ -14829,7 +15037,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -14846,7 +15054,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -14863,7 +15071,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -14880,7 +15088,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -14897,7 +15105,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -14914,7 +15122,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -15326,7 +15534,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 1544559055}
-  m_VersionIndex: 1645
+  m_VersionIndex: 1649
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -16772,6 +16980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 453810402}
   - component: {fileID: 453810403}
+  - component: {fileID: 453810404}
   m_Layer: 0
   m_Name: WATTLE_Tree (30)
   m_TagString: Untagged
@@ -16846,6 +17055,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &453810404
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453810401}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1001 &454397837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16926,6 +17148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 455375904}
   - component: {fileID: 455375905}
+  - component: {fileID: 455375906}
   m_Layer: 0
   m_Name: WATTLE_Tree (9)
   m_TagString: Untagged
@@ -17000,6 +17223,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &455375906
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455375903}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &459321066
 GameObject:
   m_ObjectHideFlags: 0
@@ -17940,6 +18176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 473468360}
   - component: {fileID: 473468361}
+  - component: {fileID: 473468362}
   m_Layer: 0
   m_Name: GhostGum_Tree (11)
   m_TagString: Untagged
@@ -18014,6 +18251,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &473468362
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473468359}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &476277790
 GameObject:
   m_ObjectHideFlags: 0
@@ -18024,6 +18274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476277791}
   - component: {fileID: 476277792}
+  - component: {fileID: 476277793}
   m_Layer: 0
   m_Name: GhostGum_Tree (11)
   m_TagString: Untagged
@@ -18098,6 +18349,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &476277793
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476277790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &483633208
 GameObject:
   m_ObjectHideFlags: 0
@@ -19807,6 +20071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 533259887}
   - component: {fileID: 533259888}
+  - component: {fileID: 533259889}
   m_Layer: 0
   m_Name: WATTLE_Tree (7)
   m_TagString: Untagged
@@ -19881,6 +20146,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &533259889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533259886}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!4 &534494822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 520186583482999393, guid: 894014d04dd7cea4db680992521866e6, type: 3}
@@ -20050,6 +20328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538394001}
   - component: {fileID: 538394002}
+  - component: {fileID: 538394003}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (1)
   m_TagString: Untagged
@@ -20124,6 +20403,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &538394003
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538394000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &538945728
 GameObject:
   m_ObjectHideFlags: 0
@@ -20134,6 +20426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538945729}
   - component: {fileID: 538945730}
+  - component: {fileID: 538945731}
   m_Layer: 0
   m_Name: GhostGum_Tree (8)
   m_TagString: Untagged
@@ -20208,6 +20501,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &538945731
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538945728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &539773453
 GameObject:
   m_ObjectHideFlags: 0
@@ -21411,6 +21717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 574228818}
   - component: {fileID: 574228819}
+  - component: {fileID: 574228820}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (5)
   m_TagString: Untagged
@@ -21485,6 +21792,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &574228820
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574228817}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &575313749
 GameObject:
   m_ObjectHideFlags: 0
@@ -21495,6 +21815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 575313750}
   - component: {fileID: 575313751}
+  - component: {fileID: 575313752}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (6)
   m_TagString: Untagged
@@ -21569,6 +21890,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &575313752
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575313749}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &577284965
 GameObject:
   m_ObjectHideFlags: 0
@@ -23443,6 +23777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 654559544}
   - component: {fileID: 654559545}
+  - component: {fileID: 654559546}
   m_Layer: 0
   m_Name: GhostGum_Tree (15)
   m_TagString: Untagged
@@ -23517,6 +23852,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &654559546
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654559543}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!43 &656271634
 Mesh:
   m_ObjectHideFlags: 0
@@ -26008,14 +26356,24 @@ Mesh:
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 180
+    indexCount: 144
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 70
+    vertexCount: 54
     localAABB:
       m_Center: {x: 9.6979065, y: 1.3291264, z: 10.305712}
       m_Extent: {x: 12.504364, y: 2.5, z: 7.5}
+  - serializedVersion: 2
+    firstByte: 288
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 54
+    vertexCount: 20
+    localAABB:
+      m_Center: {x: 19.697906, y: 0.07912636, z: 10.305712}
+      m_Extent: {x: 2.504364, y: 1.25, z: 7.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -26032,10 +26390,10 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 00000100020003000000020001000400050002000100050002000500060007000200060003000200070008000300070009000a000b000c0009000b000a000d000e000b000a000e000f001000110012000f00110013000f001200140013001200150016001700150018001600170019001a001700160019001b001a001c001b0017001a001d0017001b001d00150017001e001f0020001e0021001f0020002200230020001f00220024002300250024002000230026002000240026001e0020002700280029002a00270029002b0027002a002c002b002a002d002e0027002b002d0027002e002f00280027002e00280030003100320030003300310032003400350032003100340036003500370036003200350038003200360038003000320035003400390034003a003900180015003b0015003c003b00050004003d0004003e003d003f0040004100400042004100370035004300350039004300400044004200440045004200
+  m_IndexBuffer: 00000100020003000000020001000400050002000100050002000500060007000200060003000200070008000300070009000a000b000c0009000b000d0009000c000e000d000c000f00100011000f001200100011001300140011001000130015001400160015001100140017001100150017000f001100180019001a0018001b0019001a001c001d001a0019001c001e001d001f001e001a001d0020001a001e00200018001a002100220023002400210023002500210024002600250024002700280021002500270021002800290022002100280022002a002b002c002a002d002b002c002e002f002c002b002e0030002f00310030002c002f0032002c00300032002a002c002f002e0033002e003400330031002f0035002f003300350036003700380039003600380037003a003b00380037003b003c003d003e003d003f003e00400041004200410043004200440045004600450047004600450048004700480049004700
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 70
+    m_VertexCount: 74
     m_Channels:
     - stream: 0
       offset: 0
@@ -26093,8 +26451,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 3360
-    _typelessdata: 009d33c030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf009d334030df95bf8031e64030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c030df95bf8031e640d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c0d020aa3f009d33c0d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf009d3340d020aa3f608c894130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c130df95bf608c8941d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1d020aa3f608c89416810754019728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1681075408031e6406810754019728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c068107540009d33c06810754019728e4100000000000000000000803f000080bf0000000000000000000080bf009d334068107540409eb14130df95bf19728e410000803f000000000000000000000000000000000000803f000080bf19728e4130df95bf409eb14130df95bf32e424410000803f000000000000000000000000000000000000803f000080bf32e4244130df95bf409eb141d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f409eb141d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f409eb14130df95bfc89033400000803f000000000000000000000000000000000000803f000080bfc890334030df95bf409eb141d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c8941d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f608c8941d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c894168107540c89033400000803f000000000000000000000000000000000000803f000080bfc890334068107540608c89416810754032e424410000803f000000000000000000000000000000000000803f000080bf32e4244168107540608c8941d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f608c89416810754019728e410000803f000000000000000000000000000000000000803f000080bf19728e4168107540608c8941d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf608c8941d020aa3f8031e64030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64030df95bf8031e640d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e640d020aa3f608c894130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf608c894130df95bf009d33c030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c030df95bf009d33c0d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c0d020aa3f8031e64068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64068107540009d33c068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c068107540608c894168107540c89033400000000000000000000080bf0000803f0000000000000000000080bf608c894168107540009d33c0d020aa3fc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0d020aa3f009d33c030df95bf32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c130df95bf009d33c0d020aa3f32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c1d020aa3f009d33c030df95bfc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c030df95bf009d33c030df95bf19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec130df95bf009d33c0d020aa3f19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec1d020aa3f009d33c06810754032e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c168107540009d33c06810754019728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec168107540009d33c068107540c8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0681075408031e6406810754032e42441000000000000803f000000000000803f0000000000000000000080bf8031e64032e42441009d33c06810754032e42441000000000000803f000000000000803f0000000000000000000080bf009d33c032e42441009d33c06810754019728e41000000000000803f000000000000803f0000000000000000000080bf009d33c019728e418031e6406810754019728e41000000000000803f000000000000803f0000000000000000000080bf8031e64019728e41608c89416810754032e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441608c89416810754019728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41608c894168107540c8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c89033408031e64068107540c8903340000000000000803f000000000000803f0000000000000000000080bf8031e640c8903340009d33c068107540c8903340000000000000803f000000000000803f0000000000000000000080bf009d33c0c8903340009d33c030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf009d334032e424418031e64030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf8031e6c0c89033408031e64030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf8031e6c032e42441009d33c030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf009d3340c8903340608c894130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf608c89c1c8903340608c894130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf608c89c132e424418031e64030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf8031e6c019728e41608c894130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf608c89c119728e41009d33c030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf009d334019728e41409eb14130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf409eb1c132e42441409eb14130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf409eb1c1c8903340409eb14130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb14130df95bf409eb141d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb141d020aa3f409eb141d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c1d020aa3f409eb14130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c130df95bf608c8941d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c8903340608c8941d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441409eb141d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf409eb141c8903340409eb141d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf409eb14132e42441409eb14130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf409eb1c119728e41608c8941d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41409eb141d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf409eb14119728e41
+    m_DataSize: 3552
+    _typelessdata: 009d33c030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf009d334030df95bf8031e64030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c030df95bf8031e640d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c0d020aa3f009d33c0d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf009d3340d020aa3f608c894130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c130df95bf608c8941d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1d020aa3f608c89416810754019728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1681075408031e6406810754019728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c068107540009d33c06810754019728e4100000000000000000000803f000080bf0000000000000000000080bf009d334068107540608c8941d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f608c8941d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c894168107540c89033400000803f000000000000000000000000000000000000803f000080bfc890334068107540608c89416810754032e424410000803f000000000000000000000000000000000000803f000080bf32e4244168107540608c8941d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f608c89416810754019728e410000803f000000000000000000000000000000000000803f000080bf19728e4168107540608c8941d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf608c8941d020aa3f8031e64030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64030df95bf8031e640d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e640d020aa3f608c894130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf608c894130df95bf009d33c030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c030df95bf009d33c0d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c0d020aa3f8031e64068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64068107540009d33c068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c068107540608c894168107540c89033400000000000000000000080bf0000803f0000000000000000000080bf608c894168107540009d33c0d020aa3fc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0d020aa3f009d33c030df95bf32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c130df95bf009d33c0d020aa3f32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c1d020aa3f009d33c030df95bfc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c030df95bf009d33c030df95bf19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec130df95bf009d33c0d020aa3f19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec1d020aa3f009d33c06810754032e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c168107540009d33c06810754019728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec168107540009d33c068107540c8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0681075408031e6406810754032e42441000000000000803f000000000000803f0000000000000000000080bf8031e64032e42441009d33c06810754032e42441000000000000803f000000000000803f0000000000000000000080bf009d33c032e42441009d33c06810754019728e41000000000000803f000000000000803f0000000000000000000080bf009d33c019728e418031e6406810754019728e41000000000000803f000000000000803f0000000000000000000080bf8031e64019728e41608c89416810754032e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441608c89416810754019728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41608c894168107540c8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c89033408031e64068107540c8903340000000000000803f000000000000803f0000000000000000000080bf8031e640c8903340009d33c068107540c8903340000000000000803f000000000000803f0000000000000000000080bf009d33c0c8903340009d33c030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf009d334032e424418031e64030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf8031e6c0c89033408031e64030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf8031e6c032e42441009d33c030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf009d3340c8903340608c894130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf608c89c1c8903340608c894130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf608c89c132e424418031e64030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf8031e6c019728e41608c894130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf608c89c119728e41009d33c030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf009d334019728e41409eb14130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf409eb1c132e42441409eb14130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf409eb1c1c8903340409eb14130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf409eb1c119728e41409eb14130df95bf19728e410000803f000000000000000000000000000000000000803f000080bf19728e4130df95bf409eb14130df95bf32e424410000803f000000000000000000000000000000000000803f000080bf32e4244130df95bf409eb141d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f409eb141d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f409eb14130df95bfc89033400000803f000000000000000000000000000000000000803f000080bfc890334030df95bf409eb141d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c894130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf608c894130df95bf608c8941d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf608c8941d020aa3f409eb14130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb14130df95bf409eb141d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb141d020aa3f608c8941d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1d020aa3f608c894130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c130df95bf409eb141d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c1d020aa3f409eb14130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c130df95bf608c8941d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c8903340608c8941d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441409eb141d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf409eb141c8903340409eb141d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf409eb14132e42441608c8941d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41409eb141d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf409eb14119728e41
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -26761,6 +27119,8 @@ GameObject:
   m_Component:
   - component: {fileID: 746402020}
   - component: {fileID: 746402021}
+  - component: {fileID: 746402023}
+  - component: {fileID: 746402022}
   m_Layer: 0
   m_Name: WATTLE_Tree (16)
   m_TagString: Untagged
@@ -26835,6 +27195,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &746402022
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746402019}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
+--- !u!65 &746402023
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746402019}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &748200684
 GameObject:
   m_ObjectHideFlags: 0
@@ -27191,6 +27577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 750367187}
   - component: {fileID: 750367188}
+  - component: {fileID: 750367189}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (9)
   m_TagString: Untagged
@@ -27265,6 +27652,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &750367189
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750367186}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &750553511
 GameObject:
   m_ObjectHideFlags: 0
@@ -27275,6 +27675,7 @@ GameObject:
   m_Component:
   - component: {fileID: 750553512}
   - component: {fileID: 750553513}
+  - component: {fileID: 750553514}
   m_Layer: 0
   m_Name: GhostGum_Tree (4)
   m_TagString: Untagged
@@ -27349,6 +27750,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &750553514
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750553511}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0, z: 0.0000038146973}
 --- !u!1 &751269088
 GameObject:
   m_ObjectHideFlags: 0
@@ -27839,6 +28253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 763605227}
   - component: {fileID: 763605228}
+  - component: {fileID: 763605229}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (5)
   m_TagString: Untagged
@@ -27913,6 +28328,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &763605229
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763605226}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &764499530
 GameObject:
   m_ObjectHideFlags: 0
@@ -27923,6 +28351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 764499531}
   - component: {fileID: 764499532}
+  - component: {fileID: 764499533}
   m_Layer: 0
   m_Name: WATTLE_Tree (28)
   m_TagString: Untagged
@@ -27997,6 +28426,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &764499533
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764499530}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &765099321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6303967375357121792, guid: 76b4f4ef788797c42afa6770f7803637, type: 3}
@@ -29196,6 +29638,7 @@ GameObject:
   m_Component:
   - component: {fileID: 788724353}
   - component: {fileID: 788724354}
+  - component: {fileID: 788724355}
   m_Layer: 0
   m_Name: GhostGum_Tree (10)
   m_TagString: Untagged
@@ -29270,6 +29713,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &788724355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788724352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!4 &789746297 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 520186583482999393, guid: 894014d04dd7cea4db680992521866e6, type: 3}
@@ -29360,6 +29816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 792946295}
   - component: {fileID: 792946296}
+  - component: {fileID: 792946297}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (4)
   m_TagString: Untagged
@@ -29434,6 +29891,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &792946297
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792946294}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1001 &794412385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29910,6 +30380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 803151618}
   - component: {fileID: 803151619}
+  - component: {fileID: 803151620}
   m_Layer: 0
   m_Name: GhostGum_Tree
   m_TagString: Untagged
@@ -29984,6 +30455,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &803151620
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803151617}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0, z: 0}
 --- !u!1 &806700070
 GameObject:
   m_ObjectHideFlags: 0
@@ -30078,6 +30562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 808805046}
   - component: {fileID: 808805047}
+  - component: {fileID: 808805048}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (7)
   m_TagString: Untagged
@@ -30152,6 +30637,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &808805048
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808805045}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &809914959
 GameObject:
   m_ObjectHideFlags: 0
@@ -30162,6 +30660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 809914961}
   - component: {fileID: 809914960}
+  - component: {fileID: 809914962}
   m_Layer: 0
   m_Name: MULGA_Tree (7)
   m_TagString: Untagged
@@ -30236,6 +30735,19 @@ Transform:
   m_Father: {fileID: 13471191}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &809914962
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809914959}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!1 &811517182
 GameObject:
   m_ObjectHideFlags: 0
@@ -31112,6 +31624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 821783553}
   - component: {fileID: 821783554}
+  - component: {fileID: 821783555}
   m_Layer: 0
   m_Name: GhostGum_Tree (9)
   m_TagString: Untagged
@@ -31186,6 +31699,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &821783555
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821783552}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &822667957
 GameObject:
   m_ObjectHideFlags: 0
@@ -32225,6 +32751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 853771104}
   - component: {fileID: 853771105}
+  - component: {fileID: 853771106}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (11)
   m_TagString: Untagged
@@ -32299,6 +32826,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &853771106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853771103}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &854220872
 GameObject:
   m_ObjectHideFlags: 0
@@ -33063,6 +33603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872011891}
   - component: {fileID: 872011892}
+  - component: {fileID: 872011893}
   m_Layer: 0
   m_Name: WATTLE_Tree (21)
   m_TagString: Untagged
@@ -33137,6 +33678,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &872011893
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872011890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1001 &873801623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33554,6 +34108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 889162064}
   - component: {fileID: 889162063}
+  - component: {fileID: 889162065}
   m_Layer: 0
   m_Name: MULGA_Tree (3)
   m_TagString: Untagged
@@ -33628,6 +34183,19 @@ Transform:
   m_Father: {fileID: 7995921}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 359.999, z: 0}
+--- !u!65 &889162065
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889162062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!43 &898855137
 Mesh:
   m_ObjectHideFlags: 0
@@ -34158,6 +34726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 908550741}
   - component: {fileID: 908550742}
+  - component: {fileID: 908550743}
   m_Layer: 0
   m_Name: GhostGum_Tree (11)
   m_TagString: Untagged
@@ -34232,6 +34801,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &908550743
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908550740}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1001 &912911077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34485,14 +35067,24 @@ Mesh:
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 180
+    indexCount: 132
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 70
+    vertexCount: 51
     localAABB:
-      m_Center: {x: 9.6979065, y: 1.3291264, z: 10.305712}
-      m_Extent: {x: 12.504364, y: 2.5, z: 7.5}
+      m_Center: {x: 7.1935425, y: 1.3291264, z: 10.305712}
+      m_Extent: {x: 10, y: 2.5, z: 7.5}
+  - serializedVersion: 2
+    firstByte: 264
+    indexCount: 48
+    topology: 0
+    baseVertex: 0
+    firstVertex: 51
+    vertexCount: 26
+    localAABB:
+      m_Center: {x: 19.697906, y: 0.07912636, z: 10.305712}
+      m_Extent: {x: 2.504364, y: 1.25, z: 7.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -34509,10 +35101,10 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 00000100020003000000020001000400050002000100050002000500060007000200060003000200070008000300070009000a000b000c0009000b000a000d000e000b000a000e000f001000110012000f00110013000f001200140013001200150016001700150018001600170019001a001700160019001b001a001c001b0017001a001d0017001b001d00150017001e001f0020001e0021001f0020002200230020001f00220024002300250024002000230026002000240026001e0020002700280029002a00270029002b0027002a002c002b002a002d002e0027002b002d0027002e002f00280027002e00280030003100320030003300310032003400350032003100340036003500370036003200350038003200360038003000320035003400390034003a003900180015003b0015003c003b00050004003d0004003e003d003f0040004100400042004100370035004300350039004300400044004200440045004200
+  m_IndexBuffer: 00000100020003000000020001000400050002000100050002000500060007000200060003000200070008000300070009000a000b000c0009000b000d0009000c000e000d000c000f00100011000f001200100011001300140011001000130015001400160015001100140017001100150017000f001100180019001a0018001b0019001a001c001d001a0019001c001e001d001f001e001a001d0020001a001e00200018001a002100220023002400210023002500210024002600250024002700280021002500270021002800290022002100280022002a002b002c002a002d002b002c002e002f002c002b002e0030002f00310030002c002f0032002c00300032002a002c0033003400350036003300350034003700380035003400380039003a003b003a003c003b003d003e003f003e0040003f00410042004300420044004300450046004700460048004700490039004a0039003b004a0046004b0048004b004c004800
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 70
+    m_VertexCount: 77
     m_Channels:
     - stream: 0
       offset: 0
@@ -34570,8 +35162,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 3360
-    _typelessdata: 009d33c030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf009d334030df95bf8031e64030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c030df95bf8031e640d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c0d020aa3f009d33c0d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf009d3340d020aa3f608c894130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c130df95bf608c8941d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1d020aa3f608c89416810754019728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1681075408031e6406810754019728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c068107540009d33c06810754019728e4100000000000000000000803f000080bf0000000000000000000080bf009d334068107540409eb14130df95bf19728e410000803f000000000000000000000000000000000000803f000080bf19728e4130df95bf409eb14130df95bf32e424410000803f000000000000000000000000000000000000803f000080bf32e4244130df95bf409eb141d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f409eb141d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f409eb14130df95bfc89033400000803f000000000000000000000000000000000000803f000080bfc890334030df95bf409eb141d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c8941d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f608c8941d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c894168107540c89033400000803f000000000000000000000000000000000000803f000080bfc890334068107540608c89416810754032e424410000803f000000000000000000000000000000000000803f000080bf32e4244168107540608c8941d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f608c89416810754019728e410000803f000000000000000000000000000000000000803f000080bf19728e4168107540608c8941d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf608c8941d020aa3f8031e64030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64030df95bf8031e640d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e640d020aa3f608c894130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf608c894130df95bf009d33c030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c030df95bf009d33c0d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c0d020aa3f8031e64068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64068107540009d33c068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c068107540608c894168107540c89033400000000000000000000080bf0000803f0000000000000000000080bf608c894168107540009d33c0d020aa3fc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0d020aa3f009d33c030df95bf32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c130df95bf009d33c0d020aa3f32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c1d020aa3f009d33c030df95bfc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c030df95bf009d33c030df95bf19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec130df95bf009d33c0d020aa3f19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec1d020aa3f009d33c06810754032e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c168107540009d33c06810754019728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec168107540009d33c068107540c8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0681075408031e6406810754032e42441000000000000803f000000000000803f0000000000000000000080bf8031e64032e42441009d33c06810754032e42441000000000000803f000000000000803f0000000000000000000080bf009d33c032e42441009d33c06810754019728e41000000000000803f000000000000803f0000000000000000000080bf009d33c019728e418031e6406810754019728e41000000000000803f000000000000803f0000000000000000000080bf8031e64019728e41608c89416810754032e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441608c89416810754019728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41608c894168107540c8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c89033408031e64068107540c8903340000000000000803f000000000000803f0000000000000000000080bf8031e640c8903340009d33c068107540c8903340000000000000803f000000000000803f0000000000000000000080bf009d33c0c8903340009d33c030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf009d334032e424418031e64030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf8031e6c0c89033408031e64030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf8031e6c032e42441009d33c030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf009d3340c8903340608c894130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf608c89c1c8903340608c894130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf608c89c132e424418031e64030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf8031e6c019728e41608c894130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf608c89c119728e41009d33c030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf009d334019728e41409eb14130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf409eb1c132e42441409eb14130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf409eb1c1c8903340409eb14130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb14130df95bf409eb141d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb141d020aa3f409eb141d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c1d020aa3f409eb14130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c130df95bf608c8941d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c8903340608c8941d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441409eb141d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf409eb141c8903340409eb141d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf409eb14132e42441409eb14130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf409eb1c119728e41608c8941d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41409eb141d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf409eb14119728e41
+    m_DataSize: 3696
+    _typelessdata: 009d33c030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf009d334030df95bf8031e64030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c030df95bf8031e640d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c0d020aa3f009d33c0d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf009d3340d020aa3f608c894130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c130df95bf608c8941d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1d020aa3f608c89416810754019728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1681075408031e6406810754019728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c068107540009d33c06810754019728e4100000000000000000000803f000080bf0000000000000000000080bf009d334068107540608c8941d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f608c8941d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c894168107540c89033400000803f000000000000000000000000000000000000803f000080bfc890334068107540608c89416810754032e424410000803f000000000000000000000000000000000000803f000080bf32e4244168107540608c8941d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f608c89416810754019728e410000803f000000000000000000000000000000000000803f000080bf19728e4168107540608c8941d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf608c8941d020aa3f8031e64030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64030df95bf8031e640d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e640d020aa3f608c894130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf608c894130df95bf009d33c030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c030df95bf009d33c0d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c0d020aa3f8031e64068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64068107540009d33c068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c068107540608c894168107540c89033400000000000000000000080bf0000803f0000000000000000000080bf608c894168107540009d33c0d020aa3fc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0d020aa3f009d33c030df95bf32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c130df95bf009d33c0d020aa3f32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c1d020aa3f009d33c030df95bfc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c030df95bf009d33c030df95bf19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec130df95bf009d33c0d020aa3f19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec1d020aa3f009d33c06810754032e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c168107540009d33c06810754019728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec168107540009d33c068107540c8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0681075408031e6406810754032e42441000000000000803f000000000000803f0000000000000000000080bf8031e64032e42441009d33c06810754032e42441000000000000803f000000000000803f0000000000000000000080bf009d33c032e42441009d33c06810754019728e41000000000000803f000000000000803f0000000000000000000080bf009d33c019728e418031e6406810754019728e41000000000000803f000000000000803f0000000000000000000080bf8031e64019728e41608c89416810754032e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441608c89416810754019728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41608c894168107540c8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c89033408031e64068107540c8903340000000000000803f000000000000803f0000000000000000000080bf8031e640c8903340009d33c068107540c8903340000000000000803f000000000000803f0000000000000000000080bf009d33c0c8903340009d33c030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf009d334032e424418031e64030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf8031e6c0c89033408031e64030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf8031e6c032e42441009d33c030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf009d3340c8903340608c894130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf608c89c1c8903340608c894130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf608c89c132e424418031e64030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf8031e6c019728e41608c894130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf608c89c119728e41009d33c030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf009d334019728e41409eb14130df95bf19728e410000803f000000000000000000000000000000000000803f000080bf19728e4130df95bf409eb14130df95bf32e424410000803f000000000000000000000000000000000000803f000080bf32e4244130df95bf409eb141d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f409eb141d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f409eb14130df95bfc89033400000803f000000000000000000000000000000000000803f000080bfc890334030df95bf409eb141d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c894130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf608c89c132e42441608c894130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf608c89c1c8903340409eb14130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf409eb1c132e42441409eb14130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf409eb1c1c8903340608c894130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf608c894130df95bf608c8941d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf608c8941d020aa3f409eb14130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb14130df95bf409eb141d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb141d020aa3f608c8941d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1d020aa3f608c894130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c130df95bf409eb141d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c1d020aa3f409eb14130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c130df95bf608c8941d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c8903340608c8941d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441409eb141d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf409eb141c8903340409eb141d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf409eb14132e42441608c894130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf608c89c119728e41409eb14130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf409eb1c119728e41608c8941d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41409eb141d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf409eb14119728e41
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -34833,6 +35425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 937600115}
   - component: {fileID: 937600116}
+  - component: {fileID: 937600117}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (10)
   m_TagString: Untagged
@@ -34907,6 +35500,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &937600117
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937600114}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &940987430
 GameObject:
   m_ObjectHideFlags: 0
@@ -34917,6 +35523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 940987431}
   - component: {fileID: 940987432}
+  - component: {fileID: 940987433}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (9)
   m_TagString: Untagged
@@ -34991,6 +35598,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &940987433
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940987430}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &943518111
 GameObject:
   m_ObjectHideFlags: 0
@@ -35132,7 +35752,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 07f4e268cebead64e831ddbdab733185, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -35348,6 +35968,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948419034}
   - component: {fileID: 948419035}
+  - component: {fileID: 948419036}
   m_Layer: 0
   m_Name: GhostGum_Tree (7)
   m_TagString: Untagged
@@ -35422,6 +36043,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &948419036
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948419033}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &948455202
 GameObject:
   m_ObjectHideFlags: 0
@@ -36233,6 +36867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 962682471}
   - component: {fileID: 962682470}
+  - component: {fileID: 962682472}
   m_Layer: 0
   m_Name: MULGA_Tree
   m_TagString: Untagged
@@ -36307,6 +36942,19 @@ Transform:
   m_Father: {fileID: 1026675879}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &962682472
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962682469}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!43 &963186657
 Mesh:
   m_ObjectHideFlags: 0
@@ -36593,6 +37241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 973968020}
   - component: {fileID: 973968021}
+  - component: {fileID: 973968022}
   m_Layer: 0
   m_Name: GhostGum_Tree (13)
   m_TagString: Untagged
@@ -36667,6 +37316,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &973968022
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973968019}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &977581806
 GameObject:
   m_ObjectHideFlags: 0
@@ -36920,6 +37582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 985278853}
   - component: {fileID: 985278854}
+  - component: {fileID: 985278855}
   m_Layer: 0
   m_Name: WATTLE_Tree (15)
   m_TagString: Untagged
@@ -36994,6 +37657,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &985278855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985278852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &991292227
 GameObject:
   m_ObjectHideFlags: 0
@@ -37748,6 +38424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1002594262}
   - component: {fileID: 1002594263}
+  - component: {fileID: 1002594264}
   m_Layer: 0
   m_Name: WATTLE_Tree (35)
   m_TagString: Untagged
@@ -37822,6 +38499,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1002594264
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002594261}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1001 &1006466643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37975,6 +38665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1006974637}
   - component: {fileID: 1006974638}
+  - component: {fileID: 1006974639}
   m_Layer: 0
   m_Name: Eucalyptus_Tree
   m_TagString: Untagged
@@ -38049,6 +38740,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1006974639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006974636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!4 &1017273403 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 520186583482999393, guid: 894014d04dd7cea4db680992521866e6, type: 3}
@@ -39054,6 +39758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1034457806}
   - component: {fileID: 1034457807}
+  - component: {fileID: 1034457808}
   m_Layer: 0
   m_Name: WATTLE_Tree (38)
   m_TagString: Untagged
@@ -39128,6 +39833,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1034457808
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034457805}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &1040499777
 GameObject:
   m_ObjectHideFlags: 0
@@ -39138,6 +39856,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1040499778}
   - component: {fileID: 1040499779}
+  - component: {fileID: 1040499780}
   m_Layer: 0
   m_Name: WATTLE_Tree (8)
   m_TagString: Untagged
@@ -39212,6 +39931,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1040499780
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040499777}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1001 &1044974579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39394,6 +40126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1056457295}
   - component: {fileID: 1056457296}
+  - component: {fileID: 1056457297}
   m_Layer: 0
   m_Name: WATTLE_Tree (33)
   m_TagString: Untagged
@@ -39468,6 +40201,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1056457297
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056457294}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &1057455788
 GameObject:
   m_ObjectHideFlags: 0
@@ -39908,6 +40654,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1079183588}
   - component: {fileID: 1079183589}
+  - component: {fileID: 1079183590}
   m_Layer: 0
   m_Name: GhostGum_Tree (3)
   m_TagString: Untagged
@@ -39982,6 +40729,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1079183590
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079183587}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!43 &1080266726
 Mesh:
   m_ObjectHideFlags: 0
@@ -40472,6 +41232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1092703818}
   - component: {fileID: 1092703819}
+  - component: {fileID: 1092703820}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (6)
   m_TagString: Untagged
@@ -40546,6 +41307,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1092703820
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092703817}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1001 &1098080197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40806,6 +41580,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 3b7c425aca3f88b4eb26cb4dc44c4913, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -40950,7 +41725,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: 0
     m_TextureGroup: -1
@@ -40967,7 +41742,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: 0
     m_TextureGroup: -1
@@ -41290,7 +42065,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -41307,7 +42082,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -41324,7 +42099,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -41341,7 +42116,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -41358,7 +42133,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -41375,7 +42150,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -41787,7 +42562,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 930064748}
-  m_VersionIndex: 1645
+  m_VersionIndex: 1649
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -41802,6 +42577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1107657635}
   - component: {fileID: 1107657636}
+  - component: {fileID: 1107657637}
   m_Layer: 0
   m_Name: WATTLE_Tree (36)
   m_TagString: Untagged
@@ -41876,6 +42652,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1107657637
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107657634}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &1113046893
 GameObject:
   m_ObjectHideFlags: 0
@@ -42900,6 +43689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1122224638}
   - component: {fileID: 1122224639}
+  - component: {fileID: 1122224640}
   m_Layer: 0
   m_Name: GhostGum_Tree (14)
   m_TagString: Untagged
@@ -42974,6 +43764,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1122224640
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122224637}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!4 &1122840530 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 520186583482999393, guid: 894014d04dd7cea4db680992521866e6, type: 3}
@@ -43271,7 +44074,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 07f4e268cebead64e831ddbdab733185, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -43291,7 +44094,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140001853}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.0000029504295}
-  m_LocalPosition: {x: 17.049988, y: 4.709999, z: 13.88}
+  m_LocalPosition: {x: 17.05, y: 4.709999, z: 15.73}
   m_LocalScale: {x: 0.44253004, y: 0.47768918, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44080,6 +44883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1161568314}
   - component: {fileID: 1161568313}
+  - component: {fileID: 1161568315}
   m_Layer: 0
   m_Name: MULGA_Tree (6)
   m_TagString: Untagged
@@ -44154,6 +44958,19 @@ Transform:
   m_Father: {fileID: 13471191}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 359.999, z: 0}
+--- !u!65 &1161568315
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161568312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!43 &1162190098
 Mesh:
   m_ObjectHideFlags: 0
@@ -44415,6 +45232,90 @@ PrefabInstance:
       objectReference: {fileID: 209489904}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 894014d04dd7cea4db680992521866e6, type: 3}
+--- !u!1 &1165969178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1165969180}
+  - component: {fileID: 1165969179}
+  m_Layer: 0
+  m_Name: stickfiguire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1165969179
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165969178}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -5
+  m_Sprite: {fileID: 21300000, guid: 08d8de4081b93d54aaa761339445365c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 20.48, y: 20.48}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1165969180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165969178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.97, y: -50.53, z: 15.96}
+  m_LocalScale: {x: 0.36, y: 0.36, z: 0.36}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1180813156
 GameObject:
   m_ObjectHideFlags: 0
@@ -44770,6 +45671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1183414114}
   - component: {fileID: 1183414115}
+  - component: {fileID: 1183414116}
   m_Layer: 0
   m_Name: GhostGum_Tree (8)
   m_TagString: Untagged
@@ -44844,6 +45746,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1183414116
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183414113}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &1184983744
 GameObject:
   m_ObjectHideFlags: 0
@@ -44938,6 +45853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1195483166}
   - component: {fileID: 1195483167}
+  - component: {fileID: 1195483168}
   m_Layer: 0
   m_Name: WATTLE_Tree (32)
   m_TagString: Untagged
@@ -45012,6 +45928,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1195483168
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195483165}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &1196038248
 GameObject:
   m_ObjectHideFlags: 0
@@ -47785,6 +48714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1242469229}
   - component: {fileID: 1242469230}
+  - component: {fileID: 1242469231}
   m_Layer: 0
   m_Name: GhostGum_Tree (10)
   m_TagString: Untagged
@@ -47859,6 +48789,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1242469231
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242469228}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1001 &1243110254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48401,6 +49344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1261146933}
   - component: {fileID: 1261146934}
+  - component: {fileID: 1261146935}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (4)
   m_TagString: Untagged
@@ -48475,6 +49419,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1261146935
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261146932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &1263230993
 GameObject:
   m_ObjectHideFlags: 0
@@ -48957,6 +49914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1280800176}
   - component: {fileID: 1280800175}
+  - component: {fileID: 1280800177}
   m_Layer: 0
   m_Name: MULGA_Tree (1)
   m_TagString: Untagged
@@ -49031,6 +49989,19 @@ Transform:
   m_Father: {fileID: 13471191}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1280800177
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280800174}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!1001 &1283899850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49283,6 +50254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1288324423}
   - component: {fileID: 1288324424}
+  - component: {fileID: 1288324425}
   m_Layer: 0
   m_Name: WATTLE_Tree (13)
   m_TagString: Untagged
@@ -49357,6 +50329,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1288324425
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288324422}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!43 &1295097667
 Mesh:
   m_ObjectHideFlags: 0
@@ -52093,6 +53078,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 3b7c425aca3f88b4eb26cb4dc44c4913, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -52237,7 +53223,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: 0
     m_TextureGroup: -1
@@ -52254,7 +53240,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: 0
     m_TextureGroup: -1
@@ -52594,7 +53580,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -52611,7 +53597,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -52628,7 +53614,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -52662,7 +53648,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -53074,7 +54060,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 353278753}
-  m_VersionIndex: 1645
+  m_VersionIndex: 1649
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -53865,6 +54851,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1353005306}
   - component: {fileID: 1353005307}
+  - component: {fileID: 1353005308}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (7)
   m_TagString: Untagged
@@ -53939,6 +54926,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1353005308
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353005305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!4 &1357266360 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 520186583482999393, guid: 894014d04dd7cea4db680992521866e6, type: 3}
@@ -54024,6 +55024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1365720931}
   - component: {fileID: 1365720932}
+  - component: {fileID: 1365720933}
   m_Layer: 0
   m_Name: GhostGum_Tree (1)
   m_TagString: Untagged
@@ -54098,6 +55099,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1365720933
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365720930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1001 &1371910441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54178,6 +55192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1386040596}
   - component: {fileID: 1386040597}
+  - component: {fileID: 1386040598}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (4)
   m_TagString: Untagged
@@ -54252,6 +55267,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1386040598
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386040595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &1389205318
 GameObject:
   m_ObjectHideFlags: 0
@@ -55127,6 +56155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1425809137}
   - component: {fileID: 1425809138}
+  - component: {fileID: 1425809139}
   m_Layer: 0
   m_Name: GhostGum_Tree (9)
   m_TagString: Untagged
@@ -55201,6 +56230,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1425809139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425809136}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &1437205972
 GameObject:
   m_ObjectHideFlags: 0
@@ -55625,7 +56667,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 07f4e268cebead64e831ddbdab733185, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -55645,7 +56687,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443877497}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.0000029504295}
-  m_LocalPosition: {x: 13.400024, y: 7.709999, z: 13.45}
+  m_LocalPosition: {x: 13.4, y: 7.709999, z: 14.23}
   m_LocalScale: {x: 0.7486822, y: 0.80816525, z: 0.5075467}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -55662,6 +56704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1444506986}
   - component: {fileID: 1444506987}
+  - component: {fileID: 1444506988}
   m_Layer: 0
   m_Name: GhostGum_Tree (9)
   m_TagString: Untagged
@@ -55736,6 +56779,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1444506988
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444506985}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &1456956601
 GameObject:
   m_ObjectHideFlags: 0
@@ -56911,6 +57967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1485668741}
   - component: {fileID: 1485668742}
+  - component: {fileID: 1485668743}
   m_Layer: 0
   m_Name: WATTLE_Tree (20)
   m_TagString: Untagged
@@ -56985,6 +58042,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1485668743
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485668740}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1001 &1491270180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57441,6 +58511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1502308654}
   - component: {fileID: 1502308655}
+  - component: {fileID: 1502308656}
   m_Layer: 0
   m_Name: GhostGum_Tree (7)
   m_TagString: Untagged
@@ -57515,6 +58586,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1502308656
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502308653}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1001 &1506780716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57595,6 +58679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1507707285}
   - component: {fileID: 1507707286}
+  - component: {fileID: 1507707287}
   m_Layer: 0
   m_Name: WATTLE_Tree (29)
   m_TagString: Untagged
@@ -57669,6 +58754,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1507707287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507707284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &1509845745
 GameObject:
   m_ObjectHideFlags: 0
@@ -57927,6 +59025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1518194864}
   - component: {fileID: 1518194865}
+  - component: {fileID: 1518194866}
   m_Layer: 0
   m_Name: GhostGum_Tree (2)
   m_TagString: Untagged
@@ -58001,6 +59100,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1518194866
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518194863}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0, z: 0}
 --- !u!1 &1519333584
 GameObject:
   m_ObjectHideFlags: 0
@@ -58011,6 +59123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1519333585}
   - component: {fileID: 1519333586}
+  - component: {fileID: 1519333587}
   m_Layer: 0
   m_Name: WATTLE_Tree (18)
   m_TagString: Untagged
@@ -58085,6 +59198,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1519333587
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519333584}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &1526763357
 GameObject:
   m_ObjectHideFlags: 0
@@ -59306,14 +60432,24 @@ Mesh:
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 180
+    indexCount: 132
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 70
+    vertexCount: 51
     localAABB:
-      m_Center: {x: 9.6979065, y: 1.3291264, z: 10.305712}
-      m_Extent: {x: 12.504364, y: 2.5, z: 7.5}
+      m_Center: {x: 7.1935425, y: 1.3291264, z: 10.305712}
+      m_Extent: {x: 10, y: 2.5, z: 7.5}
+  - serializedVersion: 2
+    firstByte: 264
+    indexCount: 48
+    topology: 0
+    baseVertex: 0
+    firstVertex: 51
+    vertexCount: 26
+    localAABB:
+      m_Center: {x: 19.697906, y: 0.07912636, z: 10.305712}
+      m_Extent: {x: 2.504364, y: 1.25, z: 7.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -59330,10 +60466,10 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 00000100020003000000020001000400050002000100050002000500060007000200060003000200070008000300070009000a000b000c0009000b000a000d000e000b000a000e000f001000110012000f00110013000f001200140013001200150016001700150018001600170019001a001700160019001b001a001c001b0017001a001d0017001b001d00150017001e001f0020001e0021001f0020002200230020001f00220024002300250024002000230026002000240026001e0020002700280029002a00270029002b0027002a002c002b002a002d002e0027002b002d0027002e002f00280027002e00280030003100320030003300310032003400350032003100340036003500370036003200350038003200360038003000320035003400390034003a003900180015003b0015003c003b00050004003d0004003e003d003f0040004100400042004100370035004300350039004300400044004200440045004200
+  m_IndexBuffer: 00000100020003000000020001000400050002000100050002000500060007000200060003000200070008000300070009000a000b000c0009000b000d0009000c000e000d000c000f00100011000f001200100011001300140011001000130015001400160015001100140017001100150017000f001100180019001a0018001b0019001a001c001d001a0019001c001e001d001f001e001a001d0020001a001e00200018001a002100220023002400210023002500210024002600250024002700280021002500270021002800290022002100280022002a002b002c002a002d002b002c002e002f002c002b002e0030002f00310030002c002f0032002c00300032002a002c0033003400350036003300350034003700380035003400380039003a003b003a003c003b003d003e003f003e0040003f00410042004300420044004300450046004700460048004700490039004a0039003b004a0046004b0048004b004c004800
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 70
+    m_VertexCount: 77
     m_Channels:
     - stream: 0
       offset: 0
@@ -59391,8 +60527,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 3360
-    _typelessdata: 009d33c030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf009d334030df95bf8031e64030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c030df95bf8031e640d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c0d020aa3f009d33c0d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf009d3340d020aa3f608c894130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c130df95bf608c8941d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1d020aa3f608c89416810754019728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1681075408031e6406810754019728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c068107540009d33c06810754019728e4100000000000000000000803f000080bf0000000000000000000080bf009d334068107540409eb14130df95bf19728e410000803f000000000000000000000000000000000000803f000080bf19728e4130df95bf409eb14130df95bf32e424410000803f000000000000000000000000000000000000803f000080bf32e4244130df95bf409eb141d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f409eb141d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f409eb14130df95bfc89033400000803f000000000000000000000000000000000000803f000080bfc890334030df95bf409eb141d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c8941d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f608c8941d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c894168107540c89033400000803f000000000000000000000000000000000000803f000080bfc890334068107540608c89416810754032e424410000803f000000000000000000000000000000000000803f000080bf32e4244168107540608c8941d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f608c89416810754019728e410000803f000000000000000000000000000000000000803f000080bf19728e4168107540608c8941d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf608c8941d020aa3f8031e64030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64030df95bf8031e640d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e640d020aa3f608c894130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf608c894130df95bf009d33c030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c030df95bf009d33c0d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c0d020aa3f8031e64068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64068107540009d33c068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c068107540608c894168107540c89033400000000000000000000080bf0000803f0000000000000000000080bf608c894168107540009d33c0d020aa3fc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0d020aa3f009d33c030df95bf32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c130df95bf009d33c0d020aa3f32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c1d020aa3f009d33c030df95bfc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c030df95bf009d33c030df95bf19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec130df95bf009d33c0d020aa3f19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec1d020aa3f009d33c06810754032e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c168107540009d33c06810754019728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec168107540009d33c068107540c8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0681075408031e6406810754032e42441000000000000803f000000000000803f0000000000000000000080bf8031e64032e42441009d33c06810754032e42441000000000000803f000000000000803f0000000000000000000080bf009d33c032e42441009d33c06810754019728e41000000000000803f000000000000803f0000000000000000000080bf009d33c019728e418031e6406810754019728e41000000000000803f000000000000803f0000000000000000000080bf8031e64019728e41608c89416810754032e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441608c89416810754019728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41608c894168107540c8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c89033408031e64068107540c8903340000000000000803f000000000000803f0000000000000000000080bf8031e640c8903340009d33c068107540c8903340000000000000803f000000000000803f0000000000000000000080bf009d33c0c8903340009d33c030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf009d334032e424418031e64030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf8031e6c0c89033408031e64030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf8031e6c032e42441009d33c030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf009d3340c8903340608c894130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf608c89c1c8903340608c894130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf608c89c132e424418031e64030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf8031e6c019728e41608c894130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf608c89c119728e41009d33c030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf009d334019728e41409eb14130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf409eb1c132e42441409eb14130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf409eb1c1c8903340409eb14130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb14130df95bf409eb141d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb141d020aa3f409eb141d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c1d020aa3f409eb14130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c130df95bf608c8941d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c8903340608c8941d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441409eb141d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf409eb141c8903340409eb141d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf409eb14132e42441409eb14130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf409eb1c119728e41608c8941d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41409eb141d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf409eb14119728e41
+    m_DataSize: 3696
+    _typelessdata: 009d33c030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf009d334030df95bf8031e64030df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c030df95bf8031e640d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c0d020aa3f009d33c0d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf009d3340d020aa3f608c894130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c130df95bf608c8941d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1d020aa3f608c89416810754019728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1681075408031e6406810754019728e4100000000000000000000803f000080bf0000000000000000000080bf8031e6c068107540009d33c06810754019728e4100000000000000000000803f000080bf0000000000000000000080bf009d334068107540608c8941d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f608c8941d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c894168107540c89033400000803f000000000000000000000000000000000000803f000080bfc890334068107540608c89416810754032e424410000803f000000000000000000000000000000000000803f000080bf32e4244168107540608c8941d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f608c89416810754019728e410000803f000000000000000000000000000000000000803f000080bf19728e4168107540608c8941d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf608c8941d020aa3f8031e64030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64030df95bf8031e640d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf8031e640d020aa3f608c894130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf608c894130df95bf009d33c030df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c030df95bf009d33c0d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c0d020aa3f8031e64068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf8031e64068107540009d33c068107540c89033400000000000000000000080bf0000803f0000000000000000000080bf009d33c068107540608c894168107540c89033400000000000000000000080bf0000803f0000000000000000000080bf608c894168107540009d33c0d020aa3fc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0d020aa3f009d33c030df95bf32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c130df95bf009d33c0d020aa3f32e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c1d020aa3f009d33c030df95bfc8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c030df95bf009d33c030df95bf19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec130df95bf009d33c0d020aa3f19728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec1d020aa3f009d33c06810754032e42441000080bf00000000000000000000000000000000000080bf000080bf32e424c168107540009d33c06810754019728e41000080bf00000000000000000000000000000000000080bf000080bf19728ec168107540009d33c068107540c8903340000080bf00000000000000000000000000000000000080bf000080bfc89033c0681075408031e6406810754032e42441000000000000803f000000000000803f0000000000000000000080bf8031e64032e42441009d33c06810754032e42441000000000000803f000000000000803f0000000000000000000080bf009d33c032e42441009d33c06810754019728e41000000000000803f000000000000803f0000000000000000000080bf009d33c019728e418031e6406810754019728e41000000000000803f000000000000803f0000000000000000000080bf8031e64019728e41608c89416810754032e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441608c89416810754019728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41608c894168107540c8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c89033408031e64068107540c8903340000000000000803f000000000000803f0000000000000000000080bf8031e640c8903340009d33c068107540c8903340000000000000803f000000000000803f0000000000000000000080bf009d33c0c8903340009d33c030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf009d334032e424418031e64030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf8031e6c0c89033408031e64030df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf8031e6c032e42441009d33c030df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf009d3340c8903340608c894130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf608c89c1c8903340608c894130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf608c89c132e424418031e64030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf8031e6c019728e41608c894130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf608c89c119728e41009d33c030df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf009d334019728e41409eb14130df95bf19728e410000803f000000000000000000000000000000000000803f000080bf19728e4130df95bf409eb14130df95bf32e424410000803f000000000000000000000000000000000000803f000080bf32e4244130df95bf409eb141d020aa3f32e424410000803f000000000000000000000000000000000000803f000080bf32e42441d020aa3f409eb141d020aa3f19728e410000803f000000000000000000000000000000000000803f000080bf19728e41d020aa3f409eb14130df95bfc89033400000803f000000000000000000000000000000000000803f000080bfc890334030df95bf409eb141d020aa3fc89033400000803f000000000000000000000000000000000000803f000080bfc8903340d020aa3f608c894130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf608c89c132e42441608c894130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf608c89c1c8903340409eb14130df95bf32e4244100000000000080bf00000000000080bf0000000000000000000080bf409eb1c132e42441409eb14130df95bfc890334000000000000080bf00000000000080bf0000000000000000000080bf409eb1c1c8903340608c894130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf608c894130df95bf608c8941d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf608c8941d020aa3f409eb14130df95bfc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb14130df95bf409eb141d020aa3fc89033400000000000000000000080bf0000803f0000000000000000000080bf409eb141d020aa3f608c8941d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c1d020aa3f608c894130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf608c89c130df95bf409eb141d020aa3f19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c1d020aa3f409eb14130df95bf19728e4100000000000000000000803f000080bf0000000000000000000080bf409eb1c130df95bf608c8941d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf608c8941c8903340608c8941d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf608c894132e42441409eb141d020aa3fc8903340000000000000803f000000000000803f0000000000000000000080bf409eb141c8903340409eb141d020aa3f32e42441000000000000803f000000000000803f0000000000000000000080bf409eb14132e42441608c894130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf608c89c119728e41409eb14130df95bf19728e4100000000000080bf00000000000080bf0000000000000000000080bf409eb1c119728e41608c8941d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf608c894119728e41409eb141d020aa3f19728e41000000000000803f000000000000803f0000000000000000000080bf409eb14119728e41
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -60516,6 +61652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1577127782}
   - component: {fileID: 1577127783}
+  - component: {fileID: 1577127784}
   m_Layer: 0
   m_Name: WATTLE_Tree (22)
   m_TagString: Untagged
@@ -60590,6 +61727,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1577127784
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577127781}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &1583949584
 GameObject:
   m_ObjectHideFlags: 0
@@ -60913,6 +62063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1602910778}
   - component: {fileID: 1602910777}
+  - component: {fileID: 1602910779}
   m_Layer: 0
   m_Name: MULGA_Tree (1)
   m_TagString: Untagged
@@ -60987,6 +62138,19 @@ Transform:
   m_Father: {fileID: 1026675879}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1602910779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602910776}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!43 &1604062957
 Mesh:
   m_ObjectHideFlags: 0
@@ -62203,6 +63367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1619609275}
   - component: {fileID: 1619609276}
+  - component: {fileID: 1619609277}
   m_Layer: 0
   m_Name: GhostGum_Tree (8)
   m_TagString: Untagged
@@ -62277,6 +63442,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1619609277
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619609274}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &1619765194
 GameObject:
   m_ObjectHideFlags: 0
@@ -62287,6 +63465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1619765195}
   - component: {fileID: 1619765196}
+  - component: {fileID: 1619765197}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (6)
   m_TagString: Untagged
@@ -62361,6 +63540,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1619765197
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619765194}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &1621838359
 GameObject:
   m_ObjectHideFlags: 0
@@ -62875,6 +64067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1641670077}
   - component: {fileID: 1641670078}
+  - component: {fileID: 1641670079}
   m_Layer: 0
   m_Name: WATTLE_Tree (17)
   m_TagString: Untagged
@@ -62949,6 +64142,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1641670079
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641670076}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1001 &1643124773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63029,6 +64235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1645192175}
   - component: {fileID: 1645192176}
+  - component: {fileID: 1645192177}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (10)
   m_TagString: Untagged
@@ -63103,6 +64310,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1645192177
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645192174}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &1645305081
 GameObject:
   m_ObjectHideFlags: 0
@@ -63296,6 +64516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653651630}
   - component: {fileID: 1653651631}
+  - component: {fileID: 1653651632}
   m_Layer: 0
   m_Name: WATTLE_Tree (14)
   m_TagString: Untagged
@@ -63370,6 +64591,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1653651632
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653651629}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1001 &1655625502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63477,6 +64711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1659400360}
   - component: {fileID: 1659400361}
+  - component: {fileID: 1659400362}
   m_Layer: 0
   m_Name: WATTLE_Tree (11)
   m_TagString: Untagged
@@ -63551,6 +64786,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1659400362
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659400359}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &1661892845
 GameObject:
   m_ObjectHideFlags: 0
@@ -63561,6 +64809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1661892846}
   - component: {fileID: 1661892847}
+  - component: {fileID: 1661892848}
   m_Layer: 0
   m_Name: MULGA_Tree (3)
   m_TagString: Untagged
@@ -63635,6 +64884,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1661892848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661892845}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!1 &1664073489
 GameObject:
   m_ObjectHideFlags: 0
@@ -63813,6 +65075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1669201071}
   - component: {fileID: 1669201070}
+  - component: {fileID: 1669201072}
   m_Layer: 0
   m_Name: MULGA_Tree
   m_TagString: Untagged
@@ -63887,6 +65150,19 @@ Transform:
   m_Father: {fileID: 13471191}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &1669201072
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669201069}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!4 &1671467140 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 520186583482999393, guid: 894014d04dd7cea4db680992521866e6, type: 3}
@@ -63902,6 +65178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1674241428}
   - component: {fileID: 1674241427}
+  - component: {fileID: 1674241429}
   m_Layer: 0
   m_Name: MULGA_Tree (2)
   m_TagString: Untagged
@@ -63976,6 +65253,19 @@ Transform:
   m_Father: {fileID: 7995921}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &1674241429
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674241426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!43 &1674421121
 Mesh:
   m_ObjectHideFlags: 0
@@ -64328,6 +65618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1688823182}
   - component: {fileID: 1688823181}
+  - component: {fileID: 1688823183}
   m_Layer: 0
   m_Name: MULGA_Tree (4)
   m_TagString: Untagged
@@ -64402,6 +65693,19 @@ Transform:
   m_Father: {fileID: 13471191}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 539.999, z: 0}
+--- !u!65 &1688823183
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688823180}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!1001 &1691558535
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64771,6 +66075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1703320460}
   - component: {fileID: 1703320461}
+  - component: {fileID: 1703320462}
   m_Layer: 0
   m_Name: GhostGum_Tree (6)
   m_TagString: Untagged
@@ -64845,6 +66150,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1703320462
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703320459}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1 &1705262096
 GameObject:
   m_ObjectHideFlags: 0
@@ -65191,6 +66509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1736717547}
   - component: {fileID: 1736717548}
+  - component: {fileID: 1736717549}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (5)
   m_TagString: Untagged
@@ -65265,6 +66584,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1736717549
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736717546}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &1737185605
 GameObject:
   m_ObjectHideFlags: 0
@@ -65694,7 +67026,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 07f4e268cebead64e831ddbdab733185, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -65714,7 +67046,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753628381}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.0000029504295}
-  m_LocalPosition: {x: 3.7199707, y: 6.829998, z: 13.88}
+  m_LocalPosition: {x: 3.72, y: 6.829998, z: 15.95}
   m_LocalScale: {x: 0.7486822, y: 0.80816525, z: 0.5075467}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -66979,6 +68311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1785948987}
   - component: {fileID: 1785948988}
+  - component: {fileID: 1785948989}
   m_Layer: 0
   m_Name: GhostGum_Tree (7)
   m_TagString: Untagged
@@ -67053,6 +68386,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1785948989
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785948986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1001 &1786373688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69041,6 +70387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1832187763}
   - component: {fileID: 1832187764}
+  - component: {fileID: 1832187765}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (7)
   m_TagString: Untagged
@@ -69115,6 +70462,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1832187765
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832187762}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &1834275247
 GameObject:
   m_ObjectHideFlags: 0
@@ -70107,6 +71467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1851644759}
   - component: {fileID: 1851644760}
+  - component: {fileID: 1851644761}
   m_Layer: 0
   m_Name: WATTLE_Tree (27)
   m_TagString: Untagged
@@ -70181,6 +71542,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1851644761
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851644758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1001 &1854385327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72512,6 +73886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1909954890}
   - component: {fileID: 1909954891}
+  - component: {fileID: 1909954892}
   m_Layer: 0
   m_Name: Eucalyptus_Tree (2)
   m_TagString: Untagged
@@ -72586,6 +73961,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1909954892
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909954889}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.54, y: 23.999998, z: 1.9}
+  m_Center: {x: -0.99, y: 0.0000076293945, z: 0}
 --- !u!1 &1911016223
 GameObject:
   m_ObjectHideFlags: 0
@@ -73845,6 +75233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951996241}
   - component: {fileID: 1951996240}
+  - component: {fileID: 1951996242}
   m_Layer: 0
   m_Name: MULGA_Tree (11)
   m_TagString: Untagged
@@ -73919,6 +75308,19 @@ Transform:
   m_Father: {fileID: 7995921}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 539.999, z: 0}
+--- !u!65 &1951996242
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951996239}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!1001 &1959558474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73999,6 +75401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1963819078}
   - component: {fileID: 1963819079}
+  - component: {fileID: 1963819080}
   m_Layer: 0
   m_Name: MULGA_Tree (2)
   m_TagString: Untagged
@@ -74073,6 +75476,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1963819080
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963819077}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!1001 &1964970872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74254,6 +75670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1969191967}
   - component: {fileID: 1969191966}
+  - component: {fileID: 1969191968}
   m_Layer: 0
   m_Name: MULGA_Tree (5)
   m_TagString: Untagged
@@ -74328,6 +75745,19 @@ Transform:
   m_Father: {fileID: 13471191}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 539.999, z: 0}
+--- !u!65 &1969191968
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969191965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!1 &1970720553
 GameObject:
   m_ObjectHideFlags: 0
@@ -74338,6 +75768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1970720554}
   - component: {fileID: 1970720555}
+  - component: {fileID: 1970720556}
   m_Layer: 0
   m_Name: WATTLE_Tree (31)
   m_TagString: Untagged
@@ -74412,6 +75843,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1970720556
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970720553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 20.48, z: 0.2}
+  m_Center: {x: -0.27, y: 0, z: 0}
 --- !u!1 &1974744180
 GameObject:
   m_ObjectHideFlags: 0
@@ -74506,6 +75950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1977893085}
   - component: {fileID: 1977893084}
+  - component: {fileID: 1977893086}
   m_Layer: 0
   m_Name: MULGA_Tree (10)
   m_TagString: Untagged
@@ -74580,6 +76025,19 @@ Transform:
   m_Father: {fileID: 7995921}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 359.999, z: 0}
+--- !u!65 &1977893086
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977893083}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.04, y: 20.48, z: 0.2}
+  m_Center: {x: -0.6, y: 0, z: 0}
 --- !u!1 &1978485488
 GameObject:
   m_ObjectHideFlags: 0
@@ -74590,6 +76048,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1978485489}
   - component: {fileID: 1978485490}
+  - component: {fileID: 1978485491}
   m_Layer: 0
   m_Name: GhostGum_Tree (12)
   m_TagString: Untagged
@@ -74664,6 +76123,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1978485491
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978485488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1001 &1982955865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75360,6 +76832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2006724921}
   - component: {fileID: 2006724922}
+  - component: {fileID: 2006724923}
   m_Layer: 0
   m_Name: GhostGum_Tree (6)
   m_TagString: Untagged
@@ -75434,6 +76907,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2006724923
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006724920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.12, y: 23.999998, z: 1.46}
+  m_Center: {x: -1.83, y: 0.0000076293945, z: 0}
 --- !u!1001 &2008230530
 PrefabInstance:
   m_ObjectHideFlags: 0
