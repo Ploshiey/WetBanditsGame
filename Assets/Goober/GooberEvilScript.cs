@@ -12,7 +12,6 @@ public class GooberEvilScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && Goober.discovered == true)
         {
-            Destroy(player);
             SceneManager.LoadScene("MainMenu");
         }
     }

@@ -11,7 +11,6 @@ public class Inventory : MonoBehaviour
     public GameObject craftingError;
     #region Inventory
     [Header("Inventory")]
-    public List<string> inv;
     public TextMeshProUGUI leaf;
     public TextMeshProUGUI rock;
     public TextMeshProUGUI stick;
@@ -19,13 +18,11 @@ public class Inventory : MonoBehaviour
     public TextMeshProUGUI torch;
     public TextMeshProUGUI rope;
     public TextMeshProUGUI sharpenedRock;
-    public TextMeshProUGUI trap;
     public TextMeshProUGUI axe;
 
     public GameObject invTorch;
     public GameObject invRope;
     public GameObject invSharpenedRock;
-    public GameObject invTrap;
     public GameObject invAxe;
     
     private int temp;
@@ -36,21 +33,18 @@ public class Inventory : MonoBehaviour
     [SerializeField] private GameObject ropeGrid;
     [SerializeField] private GameObject sharpenedRockGrid;
     [SerializeField] private GameObject axeGrid;
-    [SerializeField] private GameObject trapGrid;
     #endregion
     public AudioSource source;
-    [SerializeField] private Vector2[] pozits;
     #region Counters
     private string type;
     private int Leaf = 0;
     private int Rock = 0;
     private int Stick = 0;
     private int Moss = 0;
-    private int Torch = 0;
+    public int Torch = 0;
     private int Rope = 0;
     private int SharpenedRock = 0;
-    private int Trap = 0;
-    private int Axe = 0;
+    public int Axe = 0;
     #endregion    
     void Update()
     {
@@ -98,6 +92,11 @@ public class Inventory : MonoBehaviour
         {
             Moss++;
             MossCount();
+
+            //add moss rock stuff
+
+
+
         }
         else
         {
@@ -115,14 +114,7 @@ public class Inventory : MonoBehaviour
             MossCount();
             Torch++;
             TorchCount();
-            if (!inv.Contains("Torch"))
-            {
-                inv.Add("Torch");
-                temp = inv.IndexOf("Torch");
-                invTorch.transform.localPosition = pozits[temp];
-                invTorch.SetActive(true);
-
-            }
+            
         }
         else
         {
@@ -140,13 +132,6 @@ public class Inventory : MonoBehaviour
             MossCount();
             Rope++;
             RopeCount();
-            if (!inv.Contains("Rope"))
-            {
-                inv.Add("Rope");
-                temp = inv.IndexOf("Rope");
-                invRope.transform.localPosition = pozits[temp];
-                invRope.SetActive(true);
-            }
         }
         else
         {
@@ -162,13 +147,6 @@ public class Inventory : MonoBehaviour
             RockCount();
             SharpenedRock++;
             SharpenedRockCount();
-            if (!inv.Contains("SharpenedRock"))
-            {
-                inv.Add("SharpenedRock");
-                temp = inv.IndexOf("SharpenedRock");
-                invSharpenedRock.transform.localPosition = pozits[temp];
-                invSharpenedRock.SetActive(true);
-            }
         }
         else
         {
@@ -188,65 +166,10 @@ public class Inventory : MonoBehaviour
             StickCount();
             Axe++;
             AxeCount();
-            if (!inv.Contains("Axe"))
-            {
-                if(Rope == 0)
-                {
-                    inv.Remove("Rope");
-                    invRope.SetActive(false);
-                }
-                if(SharpenedRock == 0)
-                {
-                    inv.Remove("SharpenedRock");
-                    invSharpenedRock.SetActive(false);
-                }
-                inv.Add("Axe");
-                temp = inv.IndexOf("Axe");
-                invAxe.transform.localPosition = pozits[temp];
-                invAxe.SetActive(true);
-                
-            }
         }
         else
         {
             axeGrid.SetActive(false);
-            craftingError.SetActive(true);
-        }
-    }
-    public void CraftingTrap()
-    {
-        if (SharpenedRock >= 4 && Rope >= 2 && Stick >= 2)
-        {
-            SharpenedRock = SharpenedRock - 4;
-            SharpenedRockCount();
-            Rope = Rope - 2;
-            RopeCount();
-            Stick = Stick - 2;
-            StickCount();
-            Trap++;
-            TrapCount();
-            if (!inv.Contains("Trap"))
-            {
-                if (Rope == 0)
-                {
-                    inv.Remove("Rope");
-                    invRope.SetActive(false);
-                }
-                if (SharpenedRock == 0)
-                {
-                    inv.Remove("SharpenedRock");
-                    invSharpenedRock.SetActive(false);
-                }
-                inv.Add("Trap");
-                temp = inv.IndexOf("Trap");
-                invTrap.transform.localPosition = pozits[temp];
-                invTrap.SetActive(true);
-                
-            }
-        }
-        else
-        {
-            trapGrid.SetActive(false);
             craftingError.SetActive(true);
         }
     }
@@ -283,10 +206,6 @@ public class Inventory : MonoBehaviour
     public void AxeCount()
     {
         axe.text = Axe.ToString();
-    }
-    public void TrapCount()
-    {
-        trap.text = Trap.ToString();
     }
     #endregion
 }

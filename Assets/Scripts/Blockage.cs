@@ -22,14 +22,14 @@ public class Blockage : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && Input.GetKey(KeyCode.E))
         {
-            if (Inv.inv.Contains("Axe"))
+            if (Inv.Axe >= 1)
             {
                 Destroy(blockage);
-                Inv.inv.Remove("Axe");
+                Inv.Axe--;
                 AudioSource.Play();
 
             }
-            else if (!Inv.inv.Contains("Axe"))
+            else if (Inv.Axe < 1)
             {
                 Text.text = "Maybe Try Making\nAn Axe";
             }
