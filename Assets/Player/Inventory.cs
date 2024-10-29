@@ -7,8 +7,10 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
+    public Goober gooberScript;
     public GameObject journal;
     public GameObject craftingError;
+    public GameObject[] tileCollectables;
     #region Inventory
     [Header("Inventory")]
     public TextMeshProUGUI leaf;
@@ -24,7 +26,8 @@ public class Inventory : MonoBehaviour
     public GameObject invRope;
     public GameObject invSharpenedRock;
     public GameObject invAxe;
-    
+
+    public Sprite[] mossStone;
     private int temp;
     #endregion
     #region Crafting
@@ -45,7 +48,7 @@ public class Inventory : MonoBehaviour
     private int Rope = 0;
     private int SharpenedRock = 0;
     public int Axe = 0;
-    #endregion    
+    #endregion
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
@@ -66,8 +69,17 @@ public class Inventory : MonoBehaviour
         if (other.transform.CompareTag("Collectable") && Input.GetKey(KeyCode.E))
         {
             type = other.gameObject.name;
-            Collecting(type);
-            Destroy(other.gameObject);
+            if (other.gameObject.name == "Moss" && other.gameObject.GetComponent<SpriteRenderer>().sprite == mossStone[0])
+            {
+                other.gameObject.GetComponent<SpriteRenderer>().sprite = mossStone[1];
+                other.gameObject.GetComponent<CapsuleCollider>().enabled = false;
+                Collecting(type);
+            }
+            else
+            {
+                other.gameObject.SetActive(false);
+                Collecting(type);  
+            }
             source.Play();
         }
     }
@@ -92,11 +104,6 @@ public class Inventory : MonoBehaviour
         {
             Moss++;
             MossCount();
-
-            //add moss rock stuff
-
-
-
         }
         else
         {

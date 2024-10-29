@@ -10,6 +10,7 @@ public class Goober : MonoBehaviour
     public AreaDisguises areaDisguises;
     public CameraScript camscript;
     public Borders border;
+    public Inventory inv;
     [SerializeField] GameObject phoneyGoob;
     [SerializeField] GameObject killerGoob;
     public bool discovered;
@@ -95,6 +96,7 @@ public class Goober : MonoBehaviour
             gooberHiding();
             wait = true;
             StartCoroutine(waitForGoobMove());
+            goobRejuv();
         }
         #endregion
 
@@ -236,6 +238,23 @@ public class Goober : MonoBehaviour
         Vector3 localPosition = goToPoz[GoobWanderLocat] - transform.position;
         localPosition = localPosition.normalized;
         transform.Translate(localPosition.x * Time.deltaTime * speed, 0f * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
+    }
+
+    private void goobRejuv()
+    {
+        
+        for (int i = 0; i <= inv.tileCollectables[GoobLocat].transform.childCount; i++)
+        {
+            if (gameObject.transform.GetChild(i).name == "Moss")
+            {
+                inv.tileCollectables[GoobLocat].transform.GetChild(i).GetComponent<SpriteRenderer>().sprite = inv.mossStone[0];
+                inv.tileCollectables[GoobLocat].transform.GetChild(i).GetComponent<CapsuleCollider>().enabled = true;
+            }
+            else
+            {
+                inv.tileCollectables[GoobLocat].transform.GetChild(i).gameObject.SetActive(true);
+            }
+        }
     }
 
     private bool goobAdj(bool Bool)
