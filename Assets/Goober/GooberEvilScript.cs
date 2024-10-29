@@ -16,4 +16,9 @@ public class GooberEvilScript : MonoBehaviour
             SceneManager.LoadScene("MainMenu");
         }
     }
+
+    private void Update()
+    {
+        
+    }
 }
