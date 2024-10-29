@@ -4274,6 +4274,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4443751904951866583, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0d1ffc8c1ce9bc744babc7c74c4caebd, type: 2}
     - target: {fileID: 6658465259630677047, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
       propertyPath: m_Name
       value: Shadow
@@ -4282,6 +4286,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 765099321}
+    - target: {fileID: 8178112288281041801, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8178112288281041801, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
       propertyPath: player
       value: 
