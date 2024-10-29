@@ -10,7 +10,8 @@ public class Goober : MonoBehaviour
     public AreaDisguises areaDisguises;
     public CameraScript camscript;
     public Borders border;
-    [SerializeField] GameObject phoney;
+    [SerializeField] GameObject phoneyGoob;
+    [SerializeField] GameObject killerGoob;
     public bool discovered;
     public bool goobOnTheMove;
     private bool adj;
@@ -125,17 +126,25 @@ public class Goober : MonoBehaviour
         goobOnTheMove = false;
         wait = false;
     }
+    private IEnumerator goobIFrames()
+    {
+        killerGoob.GetComponent<GooberEvilScript>().enabled = false;
+        yield return new WaitForSeconds(2);
+        killerGoob.GetComponent<GooberEvilScript>().enabled = true;
+        
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player" && discovered == false)
         {
-            phoney.SetActive(false);
+            phoneyGoob.SetActive(false);
             goober.GetComponent<SpriteRenderer>().enabled = true;
             discovered = true;
             goobOnTheMove = false;
             wait = false;
             Audable.enabled = true;
             Audable.Play();
+            StartCoroutine(goobIFrames());
         }
     }
 
