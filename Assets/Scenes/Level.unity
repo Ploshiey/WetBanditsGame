@@ -4291,6 +4291,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1021219318}
     - target: {fileID: 8178112288281041801, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
+      propertyPath: killerGoob
+      value: 
+      objectReference: {fileID: 283323702}
+    - target: {fileID: 8178112288281041801, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
+      propertyPath: phoneyGoob
+      value: 
+      objectReference: {fileID: 130222172}
+    - target: {fileID: 8178112288281041801, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
       propertyPath: areaDisguises
       value: 
       objectReference: {fileID: 1913908407}
