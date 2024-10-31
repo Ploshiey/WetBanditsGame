@@ -37,6 +37,7 @@ public class Inventory : MonoBehaviour
     [SerializeField] private GameObject sharpenedRockGrid;
     [SerializeField] private GameObject axeGrid;
     #endregion
+    public GameObject PhysicalTorch;
     public AudioSource source;
     #region Counters
     private string type;
@@ -119,8 +120,10 @@ public class Inventory : MonoBehaviour
             StickCount();
             Moss--;
             MossCount();
-            Torch++;
+            Torch = Torch + 15;
             TorchCount();
+            PhysicalTorch.gameObject.SetActive(true);
+            StartCoroutine(torchDeminish());
             
         }
         else
@@ -215,4 +218,15 @@ public class Inventory : MonoBehaviour
         axe.text = Axe.ToString();
     }
     #endregion
+
+    public IEnumerator torchDeminish()
+    {
+        while (Torch > 0)
+        {
+            yield return new WaitForSeconds(2);
+            Torch--;
+            TorchCount();
+        }
+        PhysicalTorch.gameObject.SetActive(false);
+    }
 }
