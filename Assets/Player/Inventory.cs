@@ -74,6 +74,7 @@ public class Inventory : MonoBehaviour
             {
                 other.gameObject.GetComponent<SpriteRenderer>().sprite = mossStone[1];
                 other.gameObject.GetComponent<CapsuleCollider>().enabled = false;
+                other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
                 Collecting(type);
             }
             else
