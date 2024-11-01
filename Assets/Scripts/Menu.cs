@@ -12,6 +12,11 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Level");
     }
+
+    public void Back()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
     
     public void Quit()
     {

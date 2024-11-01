@@ -194,7 +194,7 @@ public class Inventory : MonoBehaviour
             StickCount();
             Moss--;
             MossCount();
-            Torch = Torch + 15;
+            Torch = Torch + 60;
             TorchCount();
             PhysicalTorch.gameObject.SetActive(true);
             StartCoroutine(torchDeminish());

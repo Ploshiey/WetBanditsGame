@@ -19,7 +19,7 @@ public class Goober : MonoBehaviour
     private bool wait;
     [SerializeField] GameObject player;
     [SerializeField] GameObject goober;
-    [SerializeField] private int speed = 3;
+    [SerializeField] private float speed = 3;
     [SerializeField] private Vector3[] goToPoz;
     [SerializeField] private AudioSource Audable;
     public int GoobLocat;
@@ -131,7 +131,7 @@ public class Goober : MonoBehaviour
     private IEnumerator goobIFrames()
     {
         killerGoob.GetComponent<GooberEvilScript>().enabled = false;
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(4);
         killerGoob.GetComponent<GooberEvilScript>().enabled = true;
         
     }
