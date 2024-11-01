@@ -76,12 +76,10 @@ public class PlayerController : MonoBehaviour
         if(!sr.flipX && moveInput.x < 0)
         {
             sr.flipX = true;
-            flip.SetTrigger("Flip");
         }
         else if(sr.flipX && moveInput.x > 0)
         {
             sr.flipX = false;
-            flip.SetTrigger("Flip");
         }
 
         if (moveInput.x == 1 || moveInput.x == -1)
@@ -96,12 +94,10 @@ public class PlayerController : MonoBehaviour
         if (!movingBackwards && moveInput.y > 0)
         {
             movingBackwards = true;
-            flip.SetTrigger("Flip");
         }
         else if (movingBackwards && moveInput.y < 0)
         {
             movingBackwards = false;
-            flip.SetTrigger("Flip");
         }
 
         anim.SetBool("moveBackwards", movingBackwards);
