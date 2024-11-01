@@ -139,7 +139,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 29/10
+  bundleVersion: 1/11
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -160,7 +160,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.Wet-Bandits.2.5DForestHorrorGame
+    Standalone: com.Wet-Bandits.Within-The-Branches
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -278,7 +278,7 @@ PlayerSettings:
   - m_BuildTarget: Standalone
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 1b15c87d39e279d4eb63cfd43b3d749b, type: 3}
+      m_Icon: {fileID: 2800000, guid: f3f681de5812f7048b2362f6b45df071, type: 3}
       m_Width: 1024
       m_Height: 1024
       m_Kind: 0
