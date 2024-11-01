@@ -22,11 +22,14 @@ public class Inventory : MonoBehaviour
     public TextMeshProUGUI rope;
     public TextMeshProUGUI sharpenedRock;
     public TextMeshProUGUI axe;
+    public TextMeshProUGUI torchOnScreen;
 
     public GameObject invTorch;
     public GameObject invRope;
     public GameObject invSharpenedRock;
     public GameObject invAxe;
+
+    public GameObject torchUX;
 
     public Sprite[] mossStone;
     private int temp;
@@ -51,6 +54,7 @@ public class Inventory : MonoBehaviour
     private int SharpenedRock = 0;
     public int Axe = 0;
     #endregion
+
 
     #region Tutorial
     public bool tutorialCompleted = false;
@@ -287,15 +291,24 @@ public class Inventory : MonoBehaviour
     {
         axe.text = Axe.ToString();
     }
+    public void TorchOnScreenCount()
+    {
+        torchOnScreen.text = Torch.ToString();
+    }
     #endregion
 
     public IEnumerator torchDeminish()
     {
         while (Torch > 0)
         {
+            torchUX.SetActive(true);
             yield return new WaitForSeconds(2);
             Torch--;
             TorchCount();
+        }
+        if (Torch == 0)
+        {
+            torchUX.SetActive(false);
         }
         PhysicalTorch.gameObject.SetActive(false);
     }
