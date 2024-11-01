@@ -10,6 +10,11 @@ public class Menu : MonoBehaviour
 
     public void Play()
     {
+        StartCoroutine(GameStart());
+    }
+    private IEnumerator GameStart()
+    {
+        yield return new WaitForSeconds(5);
         SceneManager.LoadScene("Level");
     }
 
