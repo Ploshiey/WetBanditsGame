@@ -4,6 +4,7 @@ using System.Linq;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
@@ -50,6 +51,17 @@ public class Inventory : MonoBehaviour
     private int SharpenedRock = 0;
     public int Axe = 0;
     #endregion
+
+    #region Tutorial
+    public bool tutorialCompleted = false;
+    public GameObject Tutorial;
+    public TextMeshProUGUI TutorialText;
+    public GameObject arrow1;
+    public GameObject arrow2;
+    public int tutorialStage = 1;
+    public GameObject arrowStick;
+    public GameObject arrowMoss;
+    #endregion
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
@@ -57,11 +69,68 @@ public class Inventory : MonoBehaviour
             if(journal.activeSelf == true)
             {
                 journal.SetActive(false);
+                if(tutorialCompleted == false)
+                {
+                    Tutorial.SetActive(true);
+                }
             }
             else
             {
                 journal.SetActive(true);
+                Tutorial.SetActive(false);
             }
+        }
+
+        if (Stick == 1 && tutorialCompleted == false && tutorialStage == 1)
+        {
+            arrowStick.SetActive(false);
+        }
+        if (Moss == 1 && Moss == 1 && tutorialCompleted == false && tutorialStage == 1)
+        {
+            arrowMoss.SetActive(false);
+        }
+
+        if (Stick == 1 && Moss == 1 && tutorialCompleted == false && tutorialStage == 1)
+        {
+            TutorialText.text = "Press TAB to open Journal";
+            tutorialStage += 1;
+        }
+        if (Input.GetKeyDown(KeyCode.Tab) && tutorialCompleted == false && tutorialStage == 2)
+        {
+            arrow1.SetActive(true);
+            tutorialStage += 1;
+        }
+        if (tutorialStage == 5)
+        {
+            tutorialCompleted = true;
+        }
+        
+        if (tutorialCompleted == true)
+        {
+            Tutorial.SetActive(false);
+            arrowStick.SetActive(false);
+            arrowMoss.SetActive(false);
+            arrow1.SetActive(false);
+            arrow2.SetActive(false);
+        }
+    }
+
+    public void buttonArrow()
+    {
+        if (tutorialCompleted == false && tutorialStage == 3)
+        {
+            arrow1.SetActive(false);
+            arrow2.SetActive(true);
+            tutorialStage += 1;
+        }
+    }
+
+    public void craftArrow()
+    {
+        if (tutorialCompleted == false && tutorialStage == 4)
+        {
+            arrow2.SetActive(false);
+            tutorialStage += 1;
         }
     }
 
