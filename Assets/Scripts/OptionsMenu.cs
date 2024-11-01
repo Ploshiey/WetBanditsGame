@@ -2,20 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
 {
     public int[] langHolder;
     public int lang;
-    public float vol;
-    public int sound;
     public AudioSource[] audioSources;
     
 
     private void Start()
     {
         langChange(0);
-        volChange(-1, 1f);
+        volChange(0.5f);
     }
     public void langChange(int i)
     {
@@ -23,26 +22,12 @@ public class OptionsMenu : MonoBehaviour
         lang = langHolder[i];
     }
 
-    public void volChange(int p, float v)
+    
+    public void volChange(float v)
     {
-        switch (p)
+        for (int i = 0; i <= audioSources.Length; i++)
         {
-            case 0:
-            {
-                audioSources[p].volume = v;
-                break;
-            }
-            case 1:
-            {
-                audioSources[p].volume = v;
-                break;
-            }
-            default:
-            {
-                audioSources[0].volume = v;
-                audioSources[1].volume = v;
-                break;
-            }
+            audioSources[i].volume = this.gameObject.GetComponent<Slider>().value;
         }
     }
 }

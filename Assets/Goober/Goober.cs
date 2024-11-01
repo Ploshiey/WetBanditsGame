@@ -73,7 +73,7 @@ public class Goober : MonoBehaviour
         if (!goobAdj(adj) && GoobLocat != locat && !discovered && !goobOnTheMove)
         {
             GoobWanderLocat = GoobLocat;
-            gooberWanderSelection();
+            StartCoroutine(goobHideStall());
             if (GoobWanderLocat != GoobLocat)
             {
                 Debug.Log("Direction has been selected successfully");
@@ -130,9 +130,15 @@ public class Goober : MonoBehaviour
     }
     private IEnumerator goobIFrames()
     {
-        killerGoob.GetComponent<GooberEvilScript>().enabled = false;
-        yield return new WaitForSeconds(4);
-        killerGoob.GetComponent<GooberEvilScript>().enabled = true;
+        speed = 0f;
+        yield return new WaitForSeconds(1);
+        speed = 3f;
+        
+    }
+    private IEnumerator goobHideStall()
+    {
+        yield return new WaitForSeconds(2);
+        gooberWanderSelection();
         
     }
     private void OnTriggerEnter(Collider other)

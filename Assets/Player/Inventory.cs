@@ -194,7 +194,7 @@ public class Inventory : MonoBehaviour
             StickCount();
             Moss--;
             MossCount();
-            Torch = Torch + 60;
+            Torch = Torch + 20;
             TorchCount();
             PhysicalTorch.gameObject.SetActive(true);
             StartCoroutine(torchDeminish());
@@ -278,6 +278,7 @@ public class Inventory : MonoBehaviour
     public void TorchCount()
     {
         torch.text = Torch.ToString();
+        torchOnScreen.text = Torch.ToString();
     }
     public void RopeCount()
     {
@@ -290,10 +291,6 @@ public class Inventory : MonoBehaviour
     public void AxeCount()
     {
         axe.text = Axe.ToString();
-    }
-    public void TorchOnScreenCount()
-    {
-        torchOnScreen.text = Torch.ToString();
     }
     #endregion
 

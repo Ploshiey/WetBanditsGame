@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5711,14 +5711,14 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 436023085}
+      - m_Target: {fileID: 348037012}
         m_TargetAssemblyTypeName: OptionsMenu, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 4
+        m_MethodName: volChange
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5741,9 +5741,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   langHolder: 
   lang: 0
-  vol: 0
-  sound: 0
-  audioSources: []
+  audioSources:
+  - {fileID: 779112938}
+  - {fileID: 0}
+  - {fileID: 779112938}
 --- !u!1 &436023085
 GameObject:
   m_ObjectHideFlags: 0
@@ -5800,8 +5801,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   langHolder: 
   lang: 0
-  vol: 50
-  sound: 0
   audioSources: []
 --- !u!1 &457599701
 GameObject:
@@ -6843,7 +6842,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5e4e626ebdd145c468e6be4afc4fd098, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
