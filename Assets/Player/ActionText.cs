@@ -7,10 +7,16 @@ public class ActionText : MonoBehaviour
     [SerializeField] private GameObject text;
     private void OnTriggerEnter(Collider other)
     {
-        text.SetActive(true);
+        if (other.gameObject.tag == "Player")
+        {
+            text.SetActive(true);
+        }
     }
     private void OnTriggerExit(Collider other)
     {
-        text.SetActive(false);
+        if (other.gameObject.tag == "Player")
+        {
+            text.SetActive(false);
+        }
     }
 }

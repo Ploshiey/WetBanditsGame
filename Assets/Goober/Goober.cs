@@ -19,6 +19,7 @@ public class Goober : MonoBehaviour
     private bool wait;
     [SerializeField] GameObject player;
     [SerializeField] GameObject goober;
+    [SerializeField] GameObject GoobToolTip;
     [SerializeField] private float speed = 3;
     [SerializeField] private Vector3[] goToPoz;
     [SerializeField] private AudioSource Audable;
@@ -117,6 +118,7 @@ public class Goober : MonoBehaviour
             goobOnTheMove = false;
             wait = true;
             gooberHiding();
+
             Debug.Log("Should defo not be happening");
         }
         #endregion
@@ -145,6 +147,7 @@ public class Goober : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && discovered == false)
         {
+            GoobToolTip.gameObject.SetActive(false);
             phoneyGoob.SetActive(false);
             goober.GetComponent<SpriteRenderer>().enabled = true;
             discovered = true;
