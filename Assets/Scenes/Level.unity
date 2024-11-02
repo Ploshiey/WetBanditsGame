@@ -5162,6 +5162,26 @@ PrefabInstance:
       propertyPath: areaDisguises
       value: 
       objectReference: {fileID: 1913908407}
+    - target: {fileID: 8178112288281041803, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
+      propertyPath: MaxDistance
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8178112288281041803, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
+      propertyPath: MinDistance
+      value: 2.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8178112288281041803, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3fad3d6da2f4de5479d813d87adfb2ca, type: 3}
+    - target: {fileID: 8178112288281041803, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8178112288281041803, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8178112288281041804, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
       propertyPath: m_Name
       value: GooberEnemy
@@ -20860,7 +20880,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &495554634
 RectTransform:
   m_ObjectHideFlags: 0
@@ -32437,6 +32457,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef0999472d38b67468b0b85fe4146ec7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!81 &765099336
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765099321}
+  m_Enabled: 1
 --- !u!1 &765425746
 GameObject:
   m_ObjectHideFlags: 0
@@ -44840,7 +44868,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1021219317}
   - component: {fileID: 1021219316}
-  - component: {fileID: 1021219315}
   - component: {fileID: 1021219318}
   m_Layer: 0
   m_Name: Main Camera
@@ -44849,14 +44876,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1021219315
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021219314}
-  m_Enabled: 1
 --- !u!20 &1021219316
 Camera:
   m_ObjectHideFlags: 0

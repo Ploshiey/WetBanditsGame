@@ -7,16 +7,17 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
-
     public void Play()
     {
         StartCoroutine(GameStart());
+
     }
     private IEnumerator GameStart()
     {
-        yield return new WaitForSeconds(5);
-        SceneManager.LoadScene("Level");
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("Opening");
     }
+
 
     public void Back()
     {
