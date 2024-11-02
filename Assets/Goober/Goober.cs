@@ -132,7 +132,7 @@ public class Goober : MonoBehaviour
     {
         speed = 0f;
         yield return new WaitForSeconds(1);
-        speed = 3f;
+        speed = 3.25f;
         
     }
     private IEnumerator goobHideStall()

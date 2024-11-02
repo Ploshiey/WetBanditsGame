@@ -7,12 +7,17 @@ public class GooberEvilScript : MonoBehaviour
 {
     [SerializeField] GameObject player;
     public Goober Goober;
+    public GameObject leGame;
+    public GameObject leJumpscare;
+    public GameObject leCamera;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player" && Goober.discovered == true)
         {
-            SceneManager.LoadScene("MainMenu");
+            leJumpscare.SetActive(true);
+            leCamera.SetActive(false);
+            leGame.SetActive(false); 
         }
     }
 
