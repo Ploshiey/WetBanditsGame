@@ -14,7 +14,7 @@ public class Menu : MonoBehaviour
     }
     private IEnumerator GameStart()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         SceneManager.LoadScene("Opening");
     }
 

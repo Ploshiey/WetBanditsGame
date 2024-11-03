@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     public Animator anim;
     public Animator flip;
     public SpriteRenderer sr;
+    public GameObject footsteps;
+    public GameObject running;
     #endregion
 
     #region Movement Stats
@@ -55,6 +57,27 @@ public class PlayerController : MonoBehaviour
             moveSpeed = walkSpeed;
             isSprinting = false;
             hasRegenerated = true;
+        }
+
+     
+
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            if (moveSpeed > walkSpeed)
+            {
+                footsteps.SetActive(false);
+                running.SetActive(true);
+            }
+            else
+            {
+                footsteps.SetActive(true);
+                running.SetActive(false);
+            }
+        }
+        else
+        {
+            footsteps.SetActive(false);
+            running.SetActive(false);
         }
 
         staminaProgessUI.fillAmount = playerStamina / maxStamina;
