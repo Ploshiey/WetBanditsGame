@@ -10,7 +10,6 @@ public class AreaDisguises : MonoBehaviour
     [SerializeField] GameObject AllGoober;
     [SerializeField] GameObject phoney;
     [SerializeField] GameObject shadow;
-    [SerializeField] GameObject canvas;
     [SerializeField] Sprite[] sprites;
     private Sprite curSprite;
     private int DisObj;
@@ -118,14 +117,12 @@ public class AreaDisguises : MonoBehaviour
         if (DisObj < 3)
         {
             shadow.SetActive(true);
-            canvas.SetActive(true);
         }
         else if (3 < DisObj)
         {
             shadow.SetActive(false);
             if (DisObj == 8)
             {
-                canvas.SetActive(true);
             }
         }
     }

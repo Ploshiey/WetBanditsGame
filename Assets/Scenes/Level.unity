@@ -6719,7 +6719,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8178112286711072678, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1b5053de5fefb41428a4c93d90599d9a, type: 3}
 --- !u!1 &130222172 stripped
 GameObject:
@@ -105629,7 +105630,6 @@ MonoBehaviour:
   AllGoober: {fileID: 209489904}
   phoney: {fileID: 130222172}
   shadow: {fileID: 1859016774}
-  canvas: {fileID: 0}
   sprites:
   - {fileID: 21300000, guid: 8bbf5c6e4533b4346bcfd7b78456c7bd, type: 3}
   - {fileID: 21300000, guid: eeeb119a96ad66b42870afa11c6225df, type: 3}
