@@ -6,7 +6,6 @@ public class Borders : MonoBehaviour
 {
 
     [SerializeField] Vector3 newPos;
-    [SerializeField] Vector3 newGoobPos;
     public GameObject Player;
     [SerializeField] CameraScript cams;
     [SerializeField] int poz;
@@ -24,7 +23,7 @@ public class Borders : MonoBehaviour
         else if (other.gameObject.tag == "Goober" && (Goober.discovered || Goober.goobOnTheMove))
         {
             Debug.Log("Activated");
-            gooberWhole.transform.position = newGoobPos;
+            gooberWhole.transform.position = newPos;
             Goober.gooberPozUpdater(poz);
         }
     }
