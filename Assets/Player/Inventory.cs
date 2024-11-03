@@ -47,10 +47,10 @@ public class Inventory : MonoBehaviour
     private string type;
     private int Leaf = 0;
     private int Rock = 0;
-    private int Stick = 0;
+    public int Stick = 0;
     private int Moss = 0;
     public int Torch = 0;
-    private int Rope = 0;
+    public int Rope = 0;
     private int SharpenedRock = 0;
     public int Axe = 0;
     #endregion
