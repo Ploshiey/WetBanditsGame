@@ -26,10 +26,6 @@ public class Goober : MonoBehaviour
     private int GoobWanderLocat;
     public int locat;
     private int randMove;
-    public GameObject ChaseScream;
-    public GameObject ChaseMusic;
-    public GameObject Ambience;
-    public GameObject Release;
     // Start is called before the first frame update
     void Start()
     {
@@ -68,7 +64,6 @@ public class Goober : MonoBehaviour
             discovered = false;
             Audable.Pause();
             Audable.enabled = false;
-            Release.SetActive(true);
         }
         #endregion
 
@@ -126,20 +121,6 @@ public class Goober : MonoBehaviour
             Debug.Log("Should defo not be happening");
         }
         #endregion
-
-        if (discovered == true)
-        {
-            ChaseScream.SetActive(true);
-            ChaseMusic.SetActive(true);
-            Ambience.SetActive(false);
-            Release.SetActive(false);
-        }
-        else
-        {
-            ChaseScream.SetActive(false);
-            ChaseMusic.SetActive(false);
-            Ambience.SetActive(true);
-        }
     }
 
     private IEnumerator waitForGoobMove()
@@ -152,7 +133,7 @@ public class Goober : MonoBehaviour
     {
         speed = 0f;
         yield return new WaitForSeconds(1);
-        speed = 3.1f;
+        speed = 3.25f;
         
     }
     private void OnTriggerEnter(Collider other)
